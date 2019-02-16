@@ -1,0 +1,42 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                Id="78574172-9edb-4e69-8f24-081bc013a282">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="41d35383-e88c-4865-a12f-e69bae0db60d">
+            <Content.Layers>
+                <Layer Id="c4c5e54a-2dfe-4502-a47b-f9cd5a3b4141" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="2b720a11-06dc-4e23-9a76-320774b07160" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="494c61a7-d1d4-4e03-832f-64231cdb5ff9" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="33d0e0eb-c3b6-48f7-9fae-09dbc38451ae" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="02/16/2019 22:45:04" Id="eaa7a640-e7f1-46f4-a62c-84120f5f00ad">
+            <Scene.KeyFrames>
+                <KeyFrame Id="3890fa66-2ff9-49b7-b362-e660e0dd85ac">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="c4c5e54a-2dfe-4502-a47b-f9cd5a3b4141">
+                            <Add.Item>
+                                <i:ActionSheetButton ButtonType="Action" Text="Log In" Id="fa62e0f4-31a6-4443-8b76-c25094085667" Panel.Bounds="8,301,359{25,2147483647},44*{44,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c4c5e54a-2dfe-4502-a47b-f9cd5a3b4141">
+                            <Add.Item>
+                                <i:ActionSheetButton ButtonType="Action" Text="Sign Up" Id="17d784bb-65ea-49b9-ae47-b78ad777de30" Panel.Bounds="8,383,359{25,2147483647},44*{44,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

@@ -1,0 +1,28 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="f9ea83e6-30e6-4705-b9d7-fa5bc01675b5">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="84624e4b-7d9b-4e8d-aa51-61ac58434038">
+            <Content.Layers>
+                <Layer Id="db018f50-09ff-4c0e-9903-5b435b76577e" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="196abfc7-bd49-40cc-9bc1-2070006bca75" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="ca997bfc-8f9c-4d66-a757-cba82568b718" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="609cce66-0a9e-4f57-aa3d-b669e7658486" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="02/16/2019 22:52:58" Id="6a323ff3-9d00-4260-920b-fba5c56af2bc">
+            <Scene.KeyFrames>
+                <KeyFrame Id="ed5b50bb-80b5-4f54-93d6-b1ed6a9f2a38" />
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

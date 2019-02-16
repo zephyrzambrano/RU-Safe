@@ -1,6 +1,6 @@
 ﻿<?Infragistics.Models format="xaml" version="4" appVersion="12.0.0.8"?>
 <Project xmlns="http://prototypes.infragistics.com/"
-                                                                                  Id="ULF25TWUV74U" StartScreens="/Log In or Sign Up.screen" IndigoVersion="12">
+                                                                                  Id="ULF25TWUV74U" StartScreens="/Log In-Sign Up.screen" IndigoVersion="12">
     <Project.Defaults>
         <ProjectDefaults Viewport="375,647">
             <ProjectDefaults.Device>

@@ -1,0 +1,75 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                               xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                               Id="9dbcc664-b569-e851-6059-d6973b959be2">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="d3c423a9-beb4-8270-1efd-e72391430b0c">
+            <Content.Layers>
+                <Layer Id="435fc1e1-51df-70b2-1ceb-54c1e38fa224" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="21ae93be-02f9-2a7d-f38f-d1babc5a2108" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="cbbd01a7-09b5-605e-b205-e4f701065608" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="59e348f5-807c-b350-35ff-584c83fbff8b" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="02/17/2019 14:39:36" Id="a9a14fc8-e4f1-5792-535d-74bc68bf62e2">
+            <Scene.KeyFrames>
+                <KeyFrame Id="d3ee51d5-9385-487e-537d-baa3208baa8c">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="435fc1e1-51df-70b2-1ceb-54c1e38fa224">
+                            <Add.Item>
+                                <i:TextField Text="Resources" FontSize="20" FontFamily="Open Sans" Id="5a6a9432-87fb-5efc-0ffa-f0fffaca7aa5" Panel.Bounds="12,28,348{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="435fc1e1-51df-70b2-1ceb-54c1e38fa224">
+                            <Add.Item>
+                                <i:TextField Text="Log Out" FontSize="20" FontFamily="Open Sans" Id="d2b52ac4-86dd-1a17-0381-4354ad541cc8" Panel.Bounds="12,247,348{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="435fc1e1-51df-70b2-1ceb-54c1e38fa224">
+                            <Add.Item>
+                                <i:TextField Text="Resources" FontSize="20" FontFamily="Open Sans" Id="f91f7f61-3d87-e27f-f222-1ab25dbd2c09" Panel.Bounds="12,28,348{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="435fc1e1-51df-70b2-1ceb-54c1e38fa224">
+                            <Add.Item>
+                                <i:TextField Text="Notifications" FontSize="20" FontFamily="Open Sans" Id="18593b45-fbf4-687f-28f2-a33cd56117bb" Panel.Bounds="12,83,348{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="435fc1e1-51df-70b2-1ceb-54c1e38fa224">
+                            <Add.Item>
+                                <i:TextField Text="Account Settings" FontSize="20" FontFamily="Open Sans" Id="31e906aa-228f-498f-be7d-edbf940808c0" Panel.Bounds="12,139,348{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="435fc1e1-51df-70b2-1ceb-54c1e38fa224">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" FontSize="20" FontFamily="Open Sans" Id="ecf8034d-c8d2-341f-238b-71f9874c3248" Panel.Bounds="17,608,69{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandNavigate Screen="/Map.screen" Created="02/17/2019 14:44:36" Id="300925ca-7ee4-560c-63bd-4dee14b0e39e">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="435fc1e1-51df-70b2-1ceb-54c1e38fa224">
+                            <Add.Item>
+                                <i:TextField Text="View Ratings" FontSize="20" FontFamily="Open Sans" Id="5a96444b-be6e-4d87-e9dc-046764703ddf" Panel.Bounds="12,195,348{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

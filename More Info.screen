@@ -49,7 +49,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
                             <Add.Item>
-                                <i:TextField Text="Reccomendation: 1.4" FontSize="18" FontFamily="Open Sans" Id="f668f54f-1b2e-9c05-ba2a-26ae407b9086" Panel.Bounds="8,117,351{22,2147483647},5*{5,2147483647}" />
+                                <i:TextField Text="Reccomendation: 2" FontSize="18" FontFamily="Open Sans" Id="f668f54f-1b2e-9c05-ba2a-26ae407b9086" Panel.Bounds="8,117,351{22,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
@@ -69,12 +69,12 @@
                         </Add>
                         <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
                             <Add.Item>
-                                <i:TextField Text="Trustworthiness:" FontSize="18" FontFamily="Open Sans" Id="6b3a4921-f0cd-7ee2-51d5-8169f01806d5" Panel.Bounds="8,156,351{22,2147483647},5*{5,2147483647}" />
+                                <i:TextField Text="Trustworthiness: 2" FontSize="18" FontFamily="Open Sans" Id="6b3a4921-f0cd-7ee2-51d5-8169f01806d5" Panel.Bounds="8,156,351{22,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
                             <Add.Item>
-                                <i:TextField Text="Would go alone:" FontSize="18" FontFamily="Open Sans" Id="13f76ff5-95e6-b3b7-315a-59cc685d2edc" Panel.Bounds="8,195,351{22,2147483647},5*{5,2147483647}" />
+                                <i:TextField Text="Would go alone: 2.5" FontSize="18" FontFamily="Open Sans" Id="13f76ff5-95e6-b3b7-315a-59cc685d2edc" Panel.Bounds="8,195,351{22,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
@@ -84,12 +84,30 @@
                         </Add>
                         <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
                             <Add.Item>
-                                <i:TextField Text="Comments" FontSize="18" FontFamily="Open Sans" Id="829d3133-dc81-666b-af47-5847b5e633d1" Panel.Bounds="8,562,351{22,2147483647},5*{5,2147483647}" />
+                                <i:TextField Text="Comments" FontSize="18" FontFamily="Open Sans" Id="829d3133-dc81-666b-af47-5847b5e633d1" Panel.Bounds="8,562,351{22,2147483647},5*{5,2147483647}">
+                                    <i:TextField.TextChanged>
+                                        <CommandNavigate Screen="/Screen3.screen" Created="02/17/2019 14:46:46" Id="1fb8faa3-36f0-81f2-adad-2ed6a114849c">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:TextField.TextChanged>
+                                </i:TextField>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
                             <Add.Item>
                                 <Image SourcePath="assets/meta-chart.png" DevicePixelRatio="0.5" Crop="Size:[600,400],Rect:[66,14,445,328]" Id="1e41664c-b33e-c492-e785-0b0d9f2dbd9f" Panel.Bounds="17,307,122{5,2147483647},88{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
+                            <Add.Item>
+                                <Image SourcePath="assets/meta-chart.png" DevicePixelRatio="0.5" Crop="Size:[600,400],Rect:[66,14,445,328]" Id="1f436654-b239-9706-6eb3-c8a31720b02f" Panel.Bounds="17,307,122{5,2147483647},88{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
+                            <Add.Item>
+                                <Image SourcePath="assets/meta-chart.png" DevicePixelRatio="0.5" Scale="-1,-1" Crop="Size:[600,400],Rect:[66,14,445,328]" Id="8ab56cfc-7329-48dd-76be-b420d441c7cf" Panel.Bounds="17,433,109{5,2147483647},85{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

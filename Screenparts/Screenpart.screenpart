@@ -69,7 +69,7 @@
                                                     <SharedPart.Customizations>
                                                         <Add Property="Panel.Children" Target="95eac636-6a5b-71df-f196-878f96328466">
                                                             <Add.Item>
-                                                                <Icon Color="#FF48C157" CatalogId="fa-smile-o" Id="27b68c81-d73e-0360-c278-e4e46ab8138a" Panel.Bounds="236,24,47,47" />
+                                                                <Icon Color="#FFAE0000" CatalogId="fa-frown-o" Id="27b68c81-d73e-0360-c278-e4e46ab8138a" Panel.Bounds="236,24,47,47" />
                                                             </Add.Item>
                                                         </Add>
                                                         <Add Property="Panel.Children" Target="95eac636-6a5b-71df-f196-878f96328466">
@@ -88,7 +88,7 @@
                                                         </Add>
                                                         <Set Property="ContainerBox.Color" Value="#FF000000" Target="7d409051-6a2b-c6cc-ddc9-9e0e8a56aa4d" />
                                                         <Set Property="ContainerBox.Thickness" Value="1" Target="7d409051-6a2b-c6cc-ddc9-9e0e8a56aa4d" />
-                                                        <Set Property="Label.RichText" Value="&lt;Run FontSize=&quot;21&quot; &gt;Frat Name (DKP)&lt;/Run&gt;" Target="fc824ba6-e868-93ca-a9ab-88cea7391629" />
+                                                        <Set Property="Label.RichText" Value="&lt;Run FontSize=&quot;21&quot; &gt;Frat Name (XYZ)&lt;/Run&gt;" Target="fc824ba6-e868-93ca-a9ab-88cea7391629" />
                                                         <Move To="53,6" Target="fc824ba6-e868-93ca-a9ab-88cea7391629" />
                                                         <Resize To="36,36" Target="39d389f4-5aef-928a-1d76-6f7548d9c709" />
                                                         <Move To="11,11" Target="39d389f4-5aef-928a-1d76-6f7548d9c709" />

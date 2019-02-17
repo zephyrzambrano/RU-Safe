@@ -1,7 +1,7 @@
 ﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
-                                                                                Id="b9920679-8202-c3be-64d3-105490423ef8">
+                                                                               xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                               Id="b9920679-8202-c3be-64d3-105490423ef8">
     <Page.Content>
         <Content Width="382" Height="653" Id="212d4458-0f9e-84f5-b8ab-c3409899b645">
             <Content.Layers>
@@ -67,7 +67,7 @@
                             <Add.Item>
                                 <Icon Color="#FFAE0000" CatalogId="fa-map-marker" Id="128aeb7f-f2b2-8923-dcab-4ebaac1e0216" Panel.Bounds="214,396,32{5,2147483647},32{5,2147483647}">
                                     <Icon.Click>
-                                        <CommandSwitchTo SceneId="943135b7-7e53-15d7-f5f2-7ff12329bb4c" AutoRevertEvent="Control.Click" Created="02/17/2019 02:04:20" Id="bf4949f0-74a1-c531-f98d-335b83914fc7" />
+                                        <CommandSwitchTo SceneId="02ff917c-94bb-f9d6-298e-22ba944cee0c" Created="02/17/2019 02:04:20" Id="65bb570b-2ec5-0a15-0875-356d6847b316" />
                                     </Icon.Click>
                                 </Icon>
                             </Add.Item>
@@ -85,7 +85,7 @@
                             <Add.Item>
                                 <Icon Color="#FFAE0000" CatalogId="fa-map-marker" Id="bf61c594-c5d5-2aa4-ab87-818caebe8455" Panel.Bounds="242,354,32{5,2147483647},32{5,2147483647}">
                                     <Icon.Click>
-                                        <CommandSwitchTo SceneId="747a8ea5-7c79-c298-280d-50d5f5f0de12" AutoRevertEvent="Control.Click" Created="02/17/2019 02:08:20" Id="ad80bbbf-b268-c825-da01-8b580a934a6b" />
+                                        <CommandSwitchTo SceneId="1f251092-7429-7d73-1db4-baacf3396627" Created="02/17/2019 02:08:20" Id="a61d204d-8321-0d64-7be4-ed43deadbf2b" />
                                     </Icon.Click>
                                 </Icon>
                             </Add.Item>
@@ -104,7 +104,7 @@
                             <Add.Item>
                                 <Icon Color="#FFAE0000" CatalogId="fa-map-marker" Id="7ad16f3e-39f9-07cb-0404-e00e9da182a6" Panel.Bounds="154,330,32{5,2147483647},32{5,2147483647}">
                                     <Icon.Click>
-                                        <CommandSwitchTo SceneId="78187395-b39c-00d8-3ac9-f408f02c687c" AutoRevertEvent="Control.Click" Created="02/17/2019 00:20:35" Id="7927b113-e046-358f-efb6-503ba65a7c3a" />
+                                        <CommandSwitchTo SceneId="f8f91a33-73a0-9372-0eb3-d152b8517018" Created="02/17/2019 00:20:35" Id="2e63c41f-06df-7ea5-1283-e8ade011e48f" />
                                     </Icon.Click>
                                 </Icon>
                             </Add.Item>
@@ -155,7 +155,15 @@
                         </Add>
                         <Add Property="Panel.Children" Target="09309829-4735-e82c-d534-a2d34a9cbd2f">
                             <Add.Item>
-                                <Icon CatalogId="la-bars" Id="11c819c1-5e9c-4629-b1e5-6d7cbd3bcc8d" Panel.Bounds="4,12,32{5,2147483647},32{5,2147483647}" />
+                                <Icon CatalogId="la-bars" Id="11c819c1-5e9c-4629-b1e5-6d7cbd3bcc8d" Panel.Bounds="4,12,32{5,2147483647},32{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandNavigate Screen="/More Options.screen" Created="02/17/2019 14:39:36" Id="94e70f28-f137-fec5-e438-ce64c48091a5">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Icon.Click>
+                                </Icon>
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
@@ -178,7 +186,7 @@
                 <KeyFrame Id="441e27b9-44b9-375c-8c1d-6036d2cdfa35" />
             </Scene.KeyFrames>
         </Scene>
-        <Scene Title="Tapped fa-map-marker" StateGroup="7564249d-db9e-d5ff-50fa-e2ee4956247b" ParentScene="7564249d-db9e-d5ff-50fa-e2ee4956247b" Created="02/17/2019 02:08:20" Id="747a8ea5-7c79-c298-280d-50d5f5f0de12">
+        <Scene Title="Disconnected State" StateGroup="7564249d-db9e-d5ff-50fa-e2ee4956247b" ParentScene="7564249d-db9e-d5ff-50fa-e2ee4956247b" Created="02/17/2019 02:08:20" Id="747a8ea5-7c79-c298-280d-50d5f5f0de12">
             <Scene.KeyFrames>
                 <KeyFrame Id="8e1b2f5c-5bc4-60b6-0d3b-9dd0bebd40c4">
                     <KeyFrame.Operations>
@@ -344,7 +352,7 @@
                 </KeyFrame>
             </Scene.KeyFrames>
         </Scene>
-        <Scene Title="Tapped fa-map-marker" StateGroup="7564249d-db9e-d5ff-50fa-e2ee4956247b" ParentScene="7564249d-db9e-d5ff-50fa-e2ee4956247b" Created="02/17/2019 02:13:07" Id="78187395-b39c-00d8-3ac9-f408f02c687c">
+        <Scene Title="Disconnected State" StateGroup="7564249d-db9e-d5ff-50fa-e2ee4956247b" ParentScene="7564249d-db9e-d5ff-50fa-e2ee4956247b" Created="02/17/2019 02:13:07" Id="78187395-b39c-00d8-3ac9-f408f02c687c">
             <Scene.KeyFrames>
                 <KeyFrame Id="0ec47622-adff-bead-c92d-445126d1ad18">
                     <KeyFrame.Operations>
@@ -427,7 +435,7 @@
                 </KeyFrame>
             </Scene.KeyFrames>
         </Scene>
-        <Scene Title="Tapped fa-map-marker" StateGroup="7564249d-db9e-d5ff-50fa-e2ee4956247b" ParentScene="7564249d-db9e-d5ff-50fa-e2ee4956247b" Created="02/17/2019 02:14:49" Id="943135b7-7e53-15d7-f5f2-7ff12329bb4c">
+        <Scene Title="Disconnected State" StateGroup="7564249d-db9e-d5ff-50fa-e2ee4956247b" ParentScene="7564249d-db9e-d5ff-50fa-e2ee4956247b" Created="02/17/2019 02:14:49" Id="943135b7-7e53-15d7-f5f2-7ff12329bb4c">
             <Scene.KeyFrames>
                 <KeyFrame Id="f6bf03bb-cdfe-2c8f-6eb6-2d4be0d8a439">
                     <KeyFrame.Operations>
@@ -469,6 +477,58 @@
         <Scene Title="Disconnected State" StateGroup="7564249d-db9e-d5ff-50fa-e2ee4956247b" ParentScene="7564249d-db9e-d5ff-50fa-e2ee4956247b" Created="02/17/2019 03:55:49" Id="a4ac1086-eadf-4479-90c2-dc1d71337a58">
             <Scene.KeyFrames>
                 <KeyFrame Id="e182bce0-4f8b-4b33-9400-b7bf97f54278" />
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped fa-map-marker" StateGroup="7564249d-db9e-d5ff-50fa-e2ee4956247b" ParentScene="7564249d-db9e-d5ff-50fa-e2ee4956247b" Created="02/17/2019 14:34:50" Id="f8f91a33-73a0-9372-0eb3-d152b8517018">
+            <Scene.KeyFrames>
+                <KeyFrame Id="30d64191-5703-2b42-3d8e-2f7d0142800f">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="09309829-4735-e82c-d534-a2d34a9cbd2f">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Screenpart.screenpart" Id="fb64ffda-3a4b-ba2c-e0a5-6175045dcb1a" Panel.Bounds="40,225,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped fa-map-marker" StateGroup="7564249d-db9e-d5ff-50fa-e2ee4956247b" ParentScene="7564249d-db9e-d5ff-50fa-e2ee4956247b" Created="02/17/2019 14:35:35" Id="1f251092-7429-7d73-1db4-baacf3396627">
+            <Scene.KeyFrames>
+                <KeyFrame Id="714f5cfe-e0fb-344d-655d-bc743d8d61ff">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="09309829-4735-e82c-d534-a2d34a9cbd2f">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Screenpart.screenpart" Id="1d27372f-17c4-7568-5a0f-01ba56d44cee" Panel.Bounds="40,231,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Set Property="Label.RichText" Value="&lt;Run FontSize=&quot;21&quot; &gt;Frat Name (ABC)&lt;/Run&gt;" Target="c17d9a25-8c4f-129d-691e-f1837cc8a652.fc824ba6-e868-93ca-a9ab-88cea7391629" />
+                                        <Set Property="Label.RichText" Value="165 College Ave." Target="c17d9a25-8c4f-129d-691e-f1837cc8a652.cc312055-49b6-9249-6411-5b53810d4a5a" />
+                                        <Set Property="Icon.CatalogId" Value="fa-smile-o" Target="c17d9a25-8c4f-129d-691e-f1837cc8a652.27b68c81-d73e-0360-c278-e4e46ab8138a" />
+                                        <Set Property="Icon.Color" Value="#FF75D181" Target="c17d9a25-8c4f-129d-691e-f1837cc8a652.27b68c81-d73e-0360-c278-e4e46ab8138a" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped fa-map-marker" StateGroup="7564249d-db9e-d5ff-50fa-e2ee4956247b" ParentScene="7564249d-db9e-d5ff-50fa-e2ee4956247b" Created="02/17/2019 14:37:29" Id="02ff917c-94bb-f9d6-298e-22ba944cee0c">
+            <Scene.KeyFrames>
+                <KeyFrame Id="d52d2ccc-bc18-cd82-a529-fe4c6bbcd947">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="09309829-4735-e82c-d534-a2d34a9cbd2f">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Screenpart.screenpart" Id="3fb56a0d-cd7b-0989-01b7-61c1b31e4aee" Panel.Bounds="30,228,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Set Property="Label.RichText" Value="&lt;Run FontSize=&quot;21&quot; &gt;Frat Name (RST)&lt;/Run&gt;" Target="c17d9a25-8c4f-129d-691e-f1837cc8a652.fc824ba6-e868-93ca-a9ab-88cea7391629" />
+                                        <Set Property="Label.RichText" Value="172 College Ave." Target="c17d9a25-8c4f-129d-691e-f1837cc8a652.cc312055-49b6-9249-6411-5b53810d4a5a" />
+                                        <Set Property="Label.RichText" Value="&lt;Run FontSize=&quot;11&quot; Foreground=&quot;#FF81ABE0&quot; &gt;(28 Ratings)&lt;/Run&gt;" Target="c17d9a25-8c4f-129d-691e-f1837cc8a652.f2ea0489-59e9-0a32-5348-4214b25c4996" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
             </Scene.KeyFrames>
         </Scene>
     </Page.Scenes>

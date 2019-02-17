@@ -1,7 +1,7 @@
 ﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                               xmlns:i="http://prototypes.infragistics.com/ios7/"
-                                                                               Id="b9920679-8202-c3be-64d3-105490423ef8">
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                Id="b9920679-8202-c3be-64d3-105490423ef8">
     <Page.Content>
         <Content Width="382" Height="653" Id="212d4458-0f9e-84f5-b8ab-c3409899b645">
             <Content.Layers>
@@ -123,7 +123,7 @@
                             <Add.Item>
                                 <Icon Color="#FF000000" CatalogId="la-plus-circle" Id="a047315f-864c-abf3-e875-86bc894ad533" Panel.Bounds="301,14,32{5,2147483647},32{5,2147483647}">
                                     <Icon.Click>
-                                        <CommandNavigate Screen="/Screen.screen" Created="02/17/2019 01:55:15" Id="9f3ebf3b-cf92-c1d8-15b0-be4b10103c0e">
+                                        <CommandNavigate Screen="/Search.screen" Created="02/17/2019 01:55:15" Id="cea63037-8d55-4409-9320-a99c67412f60">
                                             <CommandNavigate.Transition>
                                                 <NavigateTransition Duration="0" />
                                             </CommandNavigate.Transition>

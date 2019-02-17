@@ -115,7 +115,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="636f6fbc-421b-4e5e-bf15-326cbc48dce9">
                             <Add.Item>
-                                <TextArea Text="RUPD: 732-932-7111&#xA;Office of Student Conduct Complaint Form:&#xA;&#xA;Fraternity and Sorority Affairs-Report a Violation:" FontSize="12" FontFamily="Open Sans" Id="608a942d-b29b-428e-a190-6414d9f92559" Panel.Bounds="12,465,351{5,2147483647},111{5,2147483647}" />
+                                <TextArea Text="RUPD: 732-932-7111&#xA;Office of Student Conduct Complaint Form:&#xA;&#xA;Fraternity and Sorority Affairs-Report a Violation:" FontSize="12" FontFamily="Open Sans" Id="608a942d-b29b-428e-a190-6414d9f92559" Panel.Bounds="13,465,351{5,2147483647},111{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="636f6fbc-421b-4e5e-bf15-326cbc48dce9">

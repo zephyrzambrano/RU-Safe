@@ -1,0 +1,152 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                Id="0da9bded-6180-41dc-8387-fd202612d90b">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="ca5c652c-20f9-4de8-bbbb-9504b1253a42">
+            <Content.Layers>
+                <Layer Id="636f6fbc-421b-4e5e-bf15-326cbc48dce9" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="d1a9874c-f23c-4bca-a83d-1766213342e9" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="e705bfa3-b1c2-4d7a-984c-e7881ba64078" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="f1664a66-56e8-4ccf-a993-52a2b8b743f6" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="02/17/2019 03:57:27" Id="a0f5291c-d63c-4b07-ba00-cceef3e1ba12">
+            <Scene.KeyFrames>
+                <KeyFrame Id="a9232a96-5112-4e16-a872-6327c3363ce6">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="636f6fbc-421b-4e5e-bf15-326cbc48dce9">
+                            <Add.Item>
+                                <i:TextArea Text="On what basis were you discriminated against?" FontFamily="Open Sans" Id="7b62434b-e25a-4efd-a6d1-c121aec43552" Panel.Bounds="13,20,348{22,2147483647},53{31,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="636f6fbc-421b-4e5e-bf15-326cbc48dce9">
+                            <Add.Item>
+                                <OptionGroup Id="a1dcd130-ceaf-412d-bcbd-ad69612a7d9c" Panel.Bounds="23,99,5*{5,2147483647},5*{5,2147483647}">
+                                    <OptionGroup.Items>
+                                        <Option Text="Gender expression" Id="10ceca01-f55a-4c7b-947b-891fa50305a2" />
+                                    </OptionGroup.Items>
+                                </OptionGroup>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="636f6fbc-421b-4e5e-bf15-326cbc48dce9">
+                            <Add.Item>
+                                <OptionGroup Id="2a0b757f-0c0f-485a-a682-c5ec4350b64e" Panel.Bounds="23,149,5*{5,2147483647},5*{5,2147483647}">
+                                    <OptionGroup.Items>
+                                        <Option Text="Race" Id="901db1fd-a724-4d78-b2d8-69180b6b303c" />
+                                    </OptionGroup.Items>
+                                </OptionGroup>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="636f6fbc-421b-4e5e-bf15-326cbc48dce9">
+                            <Add.Item>
+                                <OptionGroup Id="1030c0df-f524-4a9a-9b56-341afca6fee8" Panel.Bounds="23,193,5*{5,2147483647},5*{5,2147483647}">
+                                    <OptionGroup.Items>
+                                        <Option Text="Sexual orientation" Id="3b77d727-f083-4960-815e-1d3fe7be8eae" />
+                                    </OptionGroup.Items>
+                                </OptionGroup>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="636f6fbc-421b-4e5e-bf15-326cbc48dce9">
+                            <Add.Item>
+                                <OptionGroup Id="d9cc8dd2-57f1-478d-bbde-2956d9bc1a0f" Panel.Bounds="23,237,5*{5,2147483647},5*{5,2147483647}">
+                                    <OptionGroup.Items>
+                                        <Option Text="Other" Id="de21c6bb-7b2e-4227-801c-7612762fa0e9">
+                                            <Option.Selected>
+                                                <CommandSwitchTo SceneId="8cc60c88-d449-413a-b90f-350ae1985f07" AutoRevertEvent="Option.Unselected" Created="02/17/2019 05:26:28" Id="bb89e1a7-ce8f-45a7-86f3-9dcb3a5dc8bf" />
+                                            </Option.Selected>
+                                        </Option>
+                                    </OptionGroup.Items>
+                                </OptionGroup>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="636f6fbc-421b-4e5e-bf15-326cbc48dce9">
+                            <Add.Item>
+                                <i:NavigationButton Direction="Right" Text="Submit" FontFamily="Open Sans" Id="765cfae8-40bf-4cb9-8d32-a10af3c42422" Panel.Bounds="278,610,82{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandNavigate Screen="/Map.screen" Created="02/17/2019 08:16:23" Id="05834664-f13d-4584-948e-ad112a41844e">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="636f6fbc-421b-4e5e-bf15-326cbc48dce9">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="cf0b6862-f2a9-4a1a-b829-ad245df90829" Panel.Bounds="17,608,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandNavigate Screen="/Rating Screen.screen" Created="02/17/2019 08:17:31" Id="7ca94b67-4751-4055-8801-5f5d733a995c">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Selected Other" ParentScene="a0f5291c-d63c-4b07-ba00-cceef3e1ba12" Created="02/17/2019 05:26:28" Id="8cc60c88-d449-413a-b90f-350ae1985f07">
+            <Scene.KeyFrames>
+                <KeyFrame Id="40db019a-9987-47b7-bb55-37de94923dcd">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="636f6fbc-421b-4e5e-bf15-326cbc48dce9">
+                            <Add.Item>
+                                <TextBox FontFamily="Open Sans" Id="32e5a60f-49bd-4a2f-b789-e6074828b788" Panel.Bounds="159,268,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="636f6fbc-421b-4e5e-bf15-326cbc48dce9">
+                            <Add.Item>
+                                <Label RichText="Enter reason here:" Foreground="#FF717171" FontSize="12" FontFamily="Open Sans" Id="2fee3330-3b5e-42fe-b088-6a6588fd1158" Panel.Bounds="46,272,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="636f6fbc-421b-4e5e-bf15-326cbc48dce9">
+                            <Add.Item>
+                                <TextArea Text="RUPD: 732-932-7111&#xA;Office of Student Conduct Complaint Form:&#xA;&#xA;Fraternity and Sorority Affairs-Report a Violation:" FontSize="12" FontFamily="Open Sans" Id="608a942d-b29b-428e-a190-6414d9f92559" Panel.Bounds="12,465,351{5,2147483647},111{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="636f6fbc-421b-4e5e-bf15-326cbc48dce9">
+                            <Add.Item>
+                                <Label RichText="Report this incident:" FontSize="14" FontFamily="Open Sans" Id="edd186e7-6ac3-430a-8caa-80b0efb72646" Panel.Bounds="12,436,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="636f6fbc-421b-4e5e-bf15-326cbc48dce9">
+                            <Add.Item>
+                                <i:Link Text="http://greeklife.rutgers.edu/report-a-violation/" Foreground="#FF717171" FontSize="12" FontFamily="Open Sans" Id="a61ec689-4f80-42c6-9e24-79725c8f5895" Panel.Bounds="20,535,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="636f6fbc-421b-4e5e-bf15-326cbc48dce9">
+                            <Add.Item>
+                                <i:Link FontFamily="Open Sans" Id="143bc883-9f5f-4447-86ab-e36089442f66" Panel.Bounds="198,465,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="636f6fbc-421b-4e5e-bf15-326cbc48dce9">
+                            <Add.Item>
+                                <i:Link Text="studentconduct.rutgers.edu/resources/making-a-complaint/" Foreground="#FF717171" FontSize="12" FontFamily="Open Sans" Id="aa7b35a5-fa4b-46ad-bf53-37d2a6975f3a" Panel.Bounds="17,498,351{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="ItemBase.IsSelected" Value="True" Target="de21c6bb-7b2e-4227-801c-7612762fa0e9" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" StateGroup="a0f5291c-d63c-4b07-ba00-cceef3e1ba12" ParentScene="a0f5291c-d63c-4b07-ba00-cceef3e1ba12" Created="02/17/2019 07:59:40" Id="bb7b06f1-264b-40e6-8cf8-d86fff89b15d">
+            <Scene.KeyFrames>
+                <KeyFrame Id="34c30ebe-325f-40a3-90d3-7a1b08578b65" />
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

@@ -69,19 +69,53 @@
                         </Add>
                         <Add Property="Panel.Children" Target="28de07a9-7fc6-405f-a331-2e1ba2c21b01">
                             <Add.Item>
-                                <i:TextArea Text="Have you experienced discrimination while at this fraternity, or by one of its members?" FontFamily="Open Sans" Id="3ca94182-3ff4-4ec1-bcfc-21a494f3fd04" Panel.Bounds="32,331,300{22,2147483647},66{31,2147483647}" />
+                                <i:TextArea Text="Have you experienced discrimination while at this fraternity, or by one of its members?" FontFamily="Open Sans" Id="3ca94182-3ff4-4ec1-bcfc-21a494f3fd04" Panel.Bounds="34,501,300{22,2147483647},66{31,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="28de07a9-7fc6-405f-a331-2e1ba2c21b01">
                             <Add.Item>
-                                <ComboBox IsOpen="True" Id="6b3f8eb4-32f6-403d-a379-18f4cbc9b9de" Panel.Bounds="32,379,304{5,2147483647},32{5,2147483647}">
-                                    <ComboBox.Items>
-                                        <Item Text="Item 1" Id="e59b263e-1e83-40fe-8438-cd6a45e09515" />
-                                        <Item Text="Item 2" Id="20539de4-24e1-4fb1-8caa-05627c06fbdd" />
-                                        <Item Text="New Item" Id="bc8d3c3e-38cd-41fd-9bf7-2b6ce0a22a20" />
-                                        <Item Text="New Item" Id="5f1fbfb8-17f4-4767-9cc4-a3cf08661835" />
-                                    </ComboBox.Items>
-                                </ComboBox>
+                                <OptionGroup Id="8410f22a-f1ab-40ed-9471-599087d224da" Panel.Bounds="133,567,5*{5,2147483647},5*{5,2147483647}">
+                                    <OptionGroup.Items>
+                                        <Option Text="Yes" Id="b4b36eb9-4310-4c38-ad2a-4f0f32cfb92c">
+                                            <Option.Selected>
+                                                <CommandNavigate Screen="/Discrimination Report.screen" Created="02/17/2019 03:57:27" Id="62da2d6b-0f0b-4a3b-924d-dcf6496ce87c">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Option.Selected>
+                                        </Option>
+                                        <Option Text="No" Id="ddd27991-6d8f-4698-a1f6-08135a0ca43f" />
+                                    </OptionGroup.Items>
+                                </OptionGroup>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="28de07a9-7fc6-405f-a331-2e1ba2c21b01">
+                            <Add.Item>
+                                <TextArea Text="Have you had a negative experience with this fraternity, or one of its members?" FontFamily="Open Sans" Id="6ecec9c5-d532-4667-a0f9-917409a69733" Panel.Bounds="34,350,322{5,2147483647},51{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="28de07a9-7fc6-405f-a331-2e1ba2c21b01">
+                            <Add.Item>
+                                <OptionGroup Id="f9fa5229-f076-4059-b140-7a84ec443604" Panel.Bounds="130,422,5*{5,2147483647},5*{5,2147483647}">
+                                    <OptionGroup.Items>
+                                        <Option Text="Yes" Id="1f69faaf-8e45-4b9d-b56d-2014e7f94b31">
+                                            <Option.Selected>
+                                                <CommandNavigate Screen="/Negative Experience Report.screen" Created="02/17/2019 12:16:55" Id="24cdf268-2475-4329-9ccb-2587335920a8">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Option.Selected>
+                                        </Option>
+                                        <Option Text="No" Id="1a492568-c88c-4966-95d4-ddfdb062eda3" />
+                                    </OptionGroup.Items>
+                                </OptionGroup>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="28de07a9-7fc6-405f-a331-2e1ba2c21b01">
+                            <Add.Item>
+                                <i:NavigationButton Direction="Right" Text="Submit" FontFamily="Open Sans" Id="404a6d86-da35-418b-b290-4da0aada5b6a" Panel.Bounds="268,605,82{40,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

@@ -1,0 +1,247 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                Id="ed0e4962-4037-4b2c-a78d-d40257cae276">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="f7d770ec-f19e-4259-af3f-c7a020d7a731">
+            <Content.Layers>
+                <Layer Id="14c5efc8-55bc-4119-b6f2-5308f56ae988" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="e881af74-f4c5-4b52-8a2f-b256c97bc79d" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="194cd2c4-79cd-44a0-a8bc-579c26d08200" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="60c51418-2b29-4d78-861c-7efe88cb1713" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="02/17/2019 12:16:54" Id="66987733-823c-492e-8619-14ec23ed6958">
+            <Scene.KeyFrames>
+                <KeyFrame Id="4bae77b6-b94e-4fef-8ab6-4155988cb87e">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <i:TextArea Text="How would you describe the aforementioned experience?" FontFamily="Open Sans" Id="995e257e-9f17-490a-8c20-3a84b35928b2" Panel.Bounds="29,39,312{22,2147483647},57{31,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <OptionGroup Orientation="Vertical" Id="b14b0d54-46ea-49c5-a4c2-6b0332dc2c0d" Panel.Bounds="47,104,5*{5,2147483647},5*{5,2147483647}">
+                                    <OptionGroup.Items>
+                                        <Option Text="Unwanted comment" Id="dd0e8efb-588a-4a50-a9ea-d2374e8b8b68">
+                                            <Option.Selected>
+                                                <CommandSwitchTo SceneId="f39cd1c1-4814-4819-b4e3-e8d1ce1948c6" AutoRevertEvent="Option.Unselected" Created="02/17/2019 12:37:42" Id="bd474625-89b8-4472-b85f-fdee6c8aa926" />
+                                            </Option.Selected>
+                                        </Option>
+                                        <Option Text="Unwanted physical advance" Id="808ecfbe-df14-4a24-8ffc-a66e11f1a701">
+                                            <Option.Selected>
+                                                <CommandSwitchTo SceneId="bcece5ae-5044-43e1-be4b-4a94e0894dce" AutoRevertEvent="Option.Unselected" Created="02/17/2019 12:36:53" Id="b9f34478-f994-46e8-90c7-9ea7e58d5de8" />
+                                            </Option.Selected>
+                                        </Option>
+                                        <Option Text="Rape" Id="0122eacd-3ba2-4964-b846-d78536e7bbd5">
+                                            <Option.Selected>
+                                                <CommandSwitchTo SceneId="e1e78f4f-bd86-434d-8e68-1b6814232492" AutoRevertEvent="Option.Unselected" Created="02/17/2019 12:36:26" Id="43fbf242-3501-4b7c-bbf2-637f1390739b" />
+                                            </Option.Selected>
+                                        </Option>
+                                        <Option Text="Other" Id="bc92fb5c-d5ad-4e0d-af1e-5ba9d65aeb10">
+                                            <Option.Selected>
+                                                <CommandSwitchTo SceneId="f39cd1c1-4814-4819-b4e3-e8d1ce1948c6" AutoRevertEvent="Option.Unselected" Created="02/17/2019 12:31:43" Id="90d5c4f7-4d9b-42b3-8f4a-b18100c65374" />
+                                            </Option.Selected>
+                                        </Option>
+                                    </OptionGroup.Items>
+                                </OptionGroup>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <i:NavigationButton Direction="Right" Text="Submit and Return" FontFamily="Open Sans" Id="038b802f-c83e-4a9c-81f1-0dc3bddcd881" Panel.Bounds="184,604,170{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandNavigate Screen="/Rating Screen.screen" State="432b78b5-f7b0-4589-ae38-21bfd72171a1" Created="02/17/2019 12:53:16" Id="a856678a-8214-4d84-9522-08e091657b2d">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="a1484f1c-66b1-4fed-b052-8648e33e1d50" Panel.Bounds="21,604,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandNavigate Screen="/Rating Screen.screen" State="432b78b5-f7b0-4589-ae38-21bfd72171a1" Created="02/17/2019 12:56:29" Id="40d95a7d-b5e0-49a7-968c-ba43a8a7b1c1">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <i:NavigationButton Direction="Right" Text="Skip" FontFamily="Open Sans" Id="bed9163d-11b2-491f-8093-38ba13971826" Panel.Bounds="292,16,67{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandNavigate Screen="/Rating Screen.screen" State="432b78b5-f7b0-4589-ae38-21bfd72171a1" Created="02/17/2019 12:56:04" Id="21014405-4d01-478d-9aa1-f010e4b4b70e">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Selected Other" ParentScene="66987733-823c-492e-8619-14ec23ed6958" Created="02/17/2019 12:31:43" Id="f39cd1c1-4814-4819-b4e3-e8d1ce1948c6">
+            <Scene.KeyFrames>
+                <KeyFrame Id="6fa39ceb-518b-4329-8126-2419797189a9">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <Label RichText="Describe your experience here" Foreground="#FF8D8D8D" FontFamily="Open Sans" Id="727a7866-eea0-4c0e-a73f-865b70e3fdc8" Panel.Bounds="72,236,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <TextArea FontFamily="Open Sans" Id="45bdc13a-ca80-417a-aca2-d6ae0144db30" Panel.Bounds="72,262,256{5,2147483647},167{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="eb7b1e03-e132-4981-8a4c-06f6bc30527a" Panel.Bounds="21,604,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandNavigate Screen="/Rating Screen.screen" State="432b78b5-f7b0-4589-ae38-21bfd72171a1" Created="02/17/2019 12:47:56" Id="2013c1a4-d3f8-4b32-b132-54e2b8cd4688">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <i:NavigationButton Direction="Right" Text="Submit and Return" FontFamily="Open Sans" Id="261cd6f0-9258-4390-b2b6-5c08df5924a7" Panel.Bounds="184,604,170{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandNavigate Screen="/Rating Screen.screen" State="432b78b5-f7b0-4589-ae38-21bfd72171a1" Created="02/17/2019 12:50:01" Id="5239ba48-40a7-4f3b-bf78-d1da247939d1">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <i:NavigationButton Direction="Right" Text="Skip" FontFamily="Open Sans" Id="633a7d9f-c129-40b4-8b20-7099096da555" Panel.Bounds="292,16,67{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandNavigate Screen="/Rating Screen.screen" State="432b78b5-f7b0-4589-ae38-21bfd72171a1" Created="02/17/2019 12:52:11" Id="7a122454-d56c-4b4f-9dec-be85a31c80dc">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="ItemBase.IsSelected" Value="True" Target="dd0e8efb-588a-4a50-a9ea-d2374e8b8b68" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Selected Unwanted physical advance" ParentScene="66987733-823c-492e-8619-14ec23ed6958" Created="02/17/2019 13:26:55" Id="bcece5ae-5044-43e1-be4b-4a94e0894dce">
+            <Scene.KeyFrames>
+                <KeyFrame Id="21063d0a-5e71-404c-aeb6-2b60ac03ecc8">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <TextArea FontFamily="Open Sans" Id="cbd6b683-9d94-4ab5-b045-1fd8828b7e5f" Panel.Bounds="72,262,256{5,2147483647},167{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <Label RichText="Describe your experience here" Foreground="#FF8D8D8D" FontFamily="Open Sans" Id="ba9ec9ec-6102-4303-a4ad-404101adfb24" Panel.Bounds="72,236,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="ItemBase.IsSelected" Value="True" Target="808ecfbe-df14-4a24-8ffc-a66e11f1a701" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Selected Rape" ParentScene="66987733-823c-492e-8619-14ec23ed6958" Created="02/17/2019 13:30:41" Id="e1e78f4f-bd86-434d-8e68-1b6814232492">
+            <Scene.KeyFrames>
+                <KeyFrame Id="e4d2694e-b2f8-43ae-bb58-c86e46270e04">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <OptionGroup Orientation="Vertical" Id="84de269e-e246-494d-84b6-8785f685b69e" Panel.Bounds="47,104,5*{5,2147483647},5*{5,2147483647}">
+                                    <OptionGroup.Items>
+                                        <Option Text="Unwanted comment" Id="98eb0009-01aa-4894-9f58-c28d48a7b77b" />
+                                        <Option Text="Unwanted physical advance" Id="34f0ba10-8fc4-437b-8cba-b251b94f1469" />
+                                        <Option Text="Rape" IsSelected="True" Id="6042a4c5-46a7-4a69-95a9-ea56d99e2bc3" />
+                                        <Option Text="Other" Id="1f99991c-4f4d-4a0e-ad2f-9a2dc5cf4c2e" />
+                                    </OptionGroup.Items>
+                                </OptionGroup>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <OptionGroup Orientation="Vertical" Id="52cbe130-d527-42b5-8930-11a3c5486185" Panel.Bounds="47,104,5*{5,2147483647},5*{5,2147483647}">
+                                    <OptionGroup.Items>
+                                        <Option Text="Unwanted comment" Id="1e467574-c681-48a7-8259-15e25b99ae92" />
+                                        <Option Text="Unwanted physical advance" IsSelected="True" Id="4118f5a2-8ae1-4cd1-a8cd-bd53fa9af234" />
+                                        <Option Text="Rape" Id="4ac4dd79-13ae-4edb-9c80-7bd8c876e243" />
+                                        <Option Text="Other" Id="14ef2610-52c4-4faa-ba16-b4fc5916c6d2" />
+                                    </OptionGroup.Items>
+                                </OptionGroup>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <OptionGroup Orientation="Vertical" Id="c77760c8-f4a2-4ba8-968a-91e8f9c40aae" Panel.Bounds="47,104,5*{5,2147483647},5*{5,2147483647}">
+                                    <OptionGroup.Items>
+                                        <Option Text="Unwanted comment" Id="2e5c1991-084f-43c5-bbd1-e1540c038c54" />
+                                        <Option Text="Unwanted physical advance" IsSelected="True" Id="5cabf4da-e7fe-49ca-beb1-3a5e8d027caf" />
+                                        <Option Text="Rape" Id="82ca891d-0612-4f43-9848-b0de8a3a1ed2" />
+                                        <Option Text="Other" Id="0b060a24-ea03-476b-9e20-cc24d7348fc1" />
+                                    </OptionGroup.Items>
+                                </OptionGroup>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <OptionGroup Orientation="Vertical" Id="70ffe437-2d0d-408c-a8df-70cfced84682" Panel.Bounds="47,104,5*{5,2147483647},5*{5,2147483647}">
+                                    <OptionGroup.Items>
+                                        <Option Text="Unwanted comment" Id="6e2a4879-898f-4d6d-91e3-5ab5e8737b1c" />
+                                        <Option Text="Unwanted physical advance" Id="98513bb2-fc74-49fa-be9b-df6bd232da48" />
+                                        <Option Text="Rape" IsSelected="True" Id="ef2c7039-caa4-4551-b4bb-542c365ae872" />
+                                        <Option Text="Other" Id="544afd15-543f-4071-947d-b5ad316c7f9d" />
+                                    </OptionGroup.Items>
+                                </OptionGroup>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <TextArea FontFamily="Open Sans" Id="be2231a2-4f26-4b29-b331-e13cbe0c65c5" Panel.Bounds="72,262,256{5,2147483647},167{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <Label RichText="Describe your experience here" Foreground="#FF8D8D8D" FontFamily="Open Sans" Id="a521d4ad-d1a1-49a3-aa9c-df20a9a213b8" Panel.Bounds="72,236,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

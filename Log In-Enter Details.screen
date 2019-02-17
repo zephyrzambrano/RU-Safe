@@ -1,7 +1,7 @@
 ﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                               xmlns:i="http://prototypes.infragistics.com/ios7/"
-                                                                               Id="f9ea83e6-30e6-4705-b9d7-fa5bc01675b5">
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                Id="f9ea83e6-30e6-4705-b9d7-fa5bc01675b5">
     <Page.Content>
         <Content Width="375" Height="647" Id="84624e4b-7d9b-4e8d-aa51-61ac58434038">
             <Content.Layers>
@@ -26,12 +26,7 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
                             <Add.Item>
-                                <i:TextField FontFamily="Open Sans" Id="98972955-12f2-433c-8465-9ee09268b3aa" Panel.Bounds="44,239,287{22,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
-                            <Add.Item>
-                                <i:TextField FontFamily="Open Sans" Id="d166f30c-fc67-4c37-a656-12b4b87013cd" Panel.Bounds="42,421,287{22,2147483647},5*{5,2147483647}" />
+                                <i:TextField FontFamily="Open Sans" Id="98972955-12f2-433c-8465-9ee09268b3aa" Panel.Bounds="44,256,287{22,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
@@ -73,6 +68,11 @@
                                         </CommandNavigate>
                                     </i:ActionSheetButton.Click>
                                 </i:ActionSheetButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
+                            <Add.Item>
+                                <i:PasswordField FontFamily="Open Sans" Id="407ac867-5bfc-4393-b343-ddaafb863609" Panel.Bounds="42,424,287{22,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

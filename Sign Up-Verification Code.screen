@@ -26,11 +26,6 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
                             <Add.Item>
-                                <i:TextField FontFamily="Open Sans" Id="98972955-12f2-433c-8465-9ee09268b3aa" Panel.Bounds="46,387,287{22,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
-                            <Add.Item>
                                 <i:Label RichText="Enter the verification code we just sent you" Align="Center" FontSize="24" FontFamily="Open Sans" Id="638ada81-0e54-4030-b4c9-f3d0e98d1be7" Panel.Bounds="48,277,278{5,2147483647},74{5,2147483647}" />
                             </Add.Item>
                         </Add>
@@ -63,6 +58,11 @@
                                         </CommandNavigate>
                                     </i:NavigationButton.Click>
                                 </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
+                            <Add.Item>
+                                <i:PasswordField FontFamily="Open Sans" Id="d1d6d8d5-1f64-49a4-8d65-2c3a88e9ad08" Panel.Bounds="46,374,287{22,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

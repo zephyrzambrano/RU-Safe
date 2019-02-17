@@ -588,8 +588,8 @@
                                 </i:SearchBar>
                             </Add.Item>
                         </Add>
-                        <Move To="41,6" Before="4d343ede-4eb6-4827-9469-f3fae144d33d" Target="2c40849f-cc7f-4cba-834f-7f8a83b426c3" />
                         <Remove Target="fbc8b1bd-3dc4-49bf-b78b-3030f00964cd" />
+                        <Remove Target="2c40849f-cc7f-4cba-834f-7f8a83b426c3" />
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>

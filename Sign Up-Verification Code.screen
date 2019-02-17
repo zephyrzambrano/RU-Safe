@@ -26,34 +26,19 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
                             <Add.Item>
-                                <i:TextField FontFamily="Open Sans" Id="98972955-12f2-433c-8465-9ee09268b3aa" Panel.Bounds="44,219,287{22,2147483647},5*{5,2147483647}" />
+                                <i:TextField FontFamily="Open Sans" Id="98972955-12f2-433c-8465-9ee09268b3aa" Panel.Bounds="46,387,287{22,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
                             <Add.Item>
-                                <i:TextField FontFamily="Open Sans" Id="d166f30c-fc67-4c37-a656-12b4b87013cd" Panel.Bounds="44,457,287{22,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
-                            <Add.Item>
-                                <i:Label RichText="Enter Phone #" Align="Center" FontSize="24" FontFamily="Open Sans" Id="638ada81-0e54-4030-b4c9-f3d0e98d1be7" Panel.Bounds="49,165,278{5,2147483647},51{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
-                            <Add.Item>
-                                <i:Label RichText="&lt;Run FontSize=&quot;24&quot; &gt;Enter Rutgers or .edu email address&lt;/Run&gt;" Align="Center" FontFamily="Open Sans" Id="76ad4505-3811-47c1-a470-9005b42f3bed" Panel.Bounds="15,371,345{5,2147483647},33*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
-                            <Add.Item>
-                                <i:Label RichText="OR" FontSize="36" FontFamily="Open Sans" Id="080a038b-aac0-43af-8e4a-7f5941981791" Panel.Bounds="161,285,5*{5,2147483647},5*{5,2147483647}" />
+                                <i:Label RichText="Enter the verification code we just sent you" Align="Center" FontSize="24" FontFamily="Open Sans" Id="638ada81-0e54-4030-b4c9-f3d0e98d1be7" Panel.Bounds="48,277,278{5,2147483647},74{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
                             <Add.Item>
                                 <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="dd78aad1-a7a9-487e-88de-9a6b2c987cff" Panel.Bounds="15,610,68{40,2147483647},5*{5,2147483647}">
                                     <i:NavigationButton.Click>
-                                        <CommandNavigate Screen="/Log In or Sign Up.screen" Created="02/16/2019 23:37:27" Id="c79afad9-ba47-44a3-b5f7-7c4fd579b4c6">
+                                        <CommandNavigate Screen="/Sign Up-Enter Details.screen" Created="02/16/2019 23:37:27" Id="ad4872f9-24cf-4474-b8ea-b080e680a462">
                                             <CommandNavigate.Transition>
                                                 <NavigateTransition Duration="0" />
                                             </CommandNavigate.Transition>
@@ -71,7 +56,7 @@
                             <Add.Item>
                                 <i:NavigationButton Direction="Right" Text="Next" FontFamily="Open Sans" Id="c27ccaf6-a591-49c0-aa1b-dc871d22379a" Panel.Bounds="292,610,68{40,2147483647},5*{5,2147483647}">
                                     <i:NavigationButton.Click>
-                                        <CommandNavigate Screen="/Sign Up-Verification Code.screen" Created="02/16/2019 23:54:20" Id="372f8fe0-e2b1-4a8a-9b6b-daa3ac4aebc0">
+                                        <CommandNavigate Screen="/Sign Up-Choose Username.screen" Created="02/16/2019 23:54:20" Id="0e2be9f9-f81c-4280-a217-fdc66f978b9c">
                                             <CommandNavigate.Transition>
                                                 <NavigateTransition Duration="0" />
                                             </CommandNavigate.Transition>

@@ -26,12 +26,33 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="c4c5e54a-2dfe-4502-a47b-f9cd5a3b4141">
                             <Add.Item>
-                                <i:ActionSheetButton ButtonType="Action" Text="Log In" Id="fa62e0f4-31a6-4443-8b76-c25094085667" Panel.Bounds="8,301,359{25,2147483647},44*{44,2147483647}" />
+                                <i:ActionSheetButton ButtonType="Action" Text="Log In" Id="fa62e0f4-31a6-4443-8b76-c25094085667" Panel.Bounds="8,301,359{25,2147483647},44*{44,2147483647}">
+                                    <i:ActionSheetButton.Click>
+                                        <CommandNavigate Screen="/Log In-Enter Details.screen" Created="02/16/2019 23:11:29" Id="30507d55-3fc0-4b1c-b767-088481ec0231">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:ActionSheetButton.Click>
+                                </i:ActionSheetButton>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="c4c5e54a-2dfe-4502-a47b-f9cd5a3b4141">
                             <Add.Item>
-                                <i:ActionSheetButton ButtonType="Action" Text="Sign Up" Id="17d784bb-65ea-49b9-ae47-b78ad777de30" Panel.Bounds="8,383,359{25,2147483647},44*{44,2147483647}" />
+                                <i:ActionSheetButton ButtonType="Action" Text="Sign Up" Id="17d784bb-65ea-49b9-ae47-b78ad777de30" Panel.Bounds="8,383,359{25,2147483647},44*{44,2147483647}">
+                                    <i:ActionSheetButton.Click>
+                                        <CommandNavigate Screen="/Sign Up-Enter Details.screen" Created="02/16/2019 23:12:14" Id="c215cfe1-d416-4407-a162-b1ba74a7c260">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:ActionSheetButton.Click>
+                                </i:ActionSheetButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c4c5e54a-2dfe-4502-a47b-f9cd5a3b4141">
+                            <Add.Item>
+                                <i:Title RichText="&lt;Run FontSize=&quot;72&quot; &gt;RU Safe&lt;/Run&gt;" FontFamily="Open Sans" Id="bd279a6b-ae8b-4823-a439-bf8e537ce954" Panel.Bounds="50,96,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

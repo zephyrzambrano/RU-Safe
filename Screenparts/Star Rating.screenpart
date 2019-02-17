@@ -1,0 +1,132 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="12.0.0.8"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     Id="37cf9691-1d1e-43f7-91d8-1bd1556add6a" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="291" Height="66" Background="#00FFFFFF" Id="ac3a20ba-1ee8-407e-99e1-0e6af3875fcb">
+            <BorderedContent.Layers>
+                <Layer Id="00c6b610-60dd-4654-984d-d56983c4167c" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="1708c1a3-12bf-4013-980a-0e5686a73b59" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="8f45170c-6ba8-4631-a1d6-91210e32ef3c" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="23336189-731b-494c-8b2c-7ecd8167530b" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="02/16/2019 23:27:35" Id="60559e31-8063-4852-9b6c-8692595bf479">
+            <Scene.KeyFrames>
+                <KeyFrame Id="2e23b063-251f-4c64-907f-0e769d8a8aa7">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="00c6b610-60dd-4654-984d-d56983c4167c">
+                            <Add.Item>
+                                <Icon CatalogId="la-star-o" Id="b17506c3-b800-47ed-8ee7-539fc4cec5a0" Panel.Bounds="57,13,32{5,2147483647},32{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandSwitchTo SceneId="41d731ca-f579-4abf-b284-b02819dc1081" Created="02/17/2019 03:04:07" Id="31bcfeb0-b6f6-4ae2-aa6d-f4703fd492b4" />
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="00c6b610-60dd-4654-984d-d56983c4167c">
+                            <Add.Item>
+                                <Icon CatalogId="la-star-o" Id="cde6272e-fc34-4149-8fa4-24ae433c3f8f" Panel.Bounds="95,13,32{5,2147483647},32{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandSwitchTo SceneId="91d368d1-d6d7-48cc-af1e-449a45ea43f9" Created="02/17/2019 03:14:56" Id="9a4845d7-42eb-488e-86f5-75e3706db5c5" />
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="00c6b610-60dd-4654-984d-d56983c4167c">
+                            <Add.Item>
+                                <Icon CatalogId="la-star-o" Id="907f2852-1599-4667-91f0-13a4bbac0f3f" Panel.Bounds="133,13,32{5,2147483647},32{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandSwitchTo SceneId="9c5c9b68-fcc9-44a3-9006-959d5e1cb408" Created="02/17/2019 03:17:24" Id="7112dce4-2102-4612-9b9d-c5ce5c95567f" />
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="00c6b610-60dd-4654-984d-d56983c4167c">
+                            <Add.Item>
+                                <Icon CatalogId="la-star-o" Id="58c991b9-f7a8-4ddb-920b-c58be74f0740" Panel.Bounds="171,13,32{5,2147483647},32{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandSwitchTo SceneId="bc047678-cb14-40ff-b04d-271ebb98529b" Created="02/17/2019 03:21:32" Id="bb918dc9-eb9a-4cdc-a18a-07d203587289" />
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="00c6b610-60dd-4654-984d-d56983c4167c">
+                            <Add.Item>
+                                <Icon CatalogId="la-star-o" Id="0df2d40b-6d79-4550-9314-98b5b291e682" Panel.Bounds="209,13,32{5,2147483647},32{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandSwitchTo SceneId="85e3b486-d2d7-4e73-b514-caf10c84dfbe" Created="02/17/2019 03:24:05" Id="b19713cb-373d-4e80-a30a-c4e0ec8673e6" />
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked la-star-o" StateGroup="60559e31-8063-4852-9b6c-8692595bf479" ParentScene="60559e31-8063-4852-9b6c-8692595bf479" Created="02/17/2019 03:04:07" Id="41d731ca-f579-4abf-b284-b02819dc1081">
+            <Scene.KeyFrames>
+                <KeyFrame Id="a11b3bef-d0af-417d-8508-0ecb267b34bf">
+                    <KeyFrame.Operations>
+                        <Set Property="Icon.CatalogId" Value="la-star" Target="b17506c3-b800-47ed-8ee7-539fc4cec5a0" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked la-star-o" StateGroup="60559e31-8063-4852-9b6c-8692595bf479" ParentScene="60559e31-8063-4852-9b6c-8692595bf479" Created="02/17/2019 03:14:56" Id="91d368d1-d6d7-48cc-af1e-449a45ea43f9">
+            <Scene.KeyFrames>
+                <KeyFrame Id="a4048942-1fd9-4b00-a43d-fbcb159f6aab">
+                    <KeyFrame.Operations>
+                        <Set Property="Icon.CatalogId" Value="la-star" Target="cde6272e-fc34-4149-8fa4-24ae433c3f8f" />
+                        <Set Property="Icon.CatalogId" Value="la-star" Target="b17506c3-b800-47ed-8ee7-539fc4cec5a0" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked la-star-o" StateGroup="60559e31-8063-4852-9b6c-8692595bf479" ParentScene="60559e31-8063-4852-9b6c-8692595bf479" Created="02/17/2019 03:16:22" Id="9c5c9b68-fcc9-44a3-9006-959d5e1cb408">
+            <Scene.KeyFrames>
+                <KeyFrame Id="edfb81d8-e35d-4d8d-ad2b-1ec6fa7bccbe">
+                    <KeyFrame.Operations>
+                        <Set Property="Icon.CatalogId" Value="la-star" Target="b17506c3-b800-47ed-8ee7-539fc4cec5a0" />
+                        <Set Property="Icon.CatalogId" Value="la-star" Target="cde6272e-fc34-4149-8fa4-24ae433c3f8f" />
+                        <Set Property="Icon.CatalogId" Value="la-star" Target="907f2852-1599-4667-91f0-13a4bbac0f3f" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked la-star-o" StateGroup="60559e31-8063-4852-9b6c-8692595bf479" ParentScene="60559e31-8063-4852-9b6c-8692595bf479" Created="02/17/2019 03:21:32" Id="bc047678-cb14-40ff-b04d-271ebb98529b">
+            <Scene.KeyFrames>
+                <KeyFrame Id="5d59d058-c892-45ce-817f-97ffb01c03e1">
+                    <KeyFrame.Operations>
+                        <Set Property="Icon.CatalogId" Value="la-star" Target="58c991b9-f7a8-4ddb-920b-c58be74f0740" />
+                        <Set Property="Icon.CatalogId" Value="la-star" Target="907f2852-1599-4667-91f0-13a4bbac0f3f" />
+                        <Set Property="Icon.CatalogId" Value="la-star" Target="cde6272e-fc34-4149-8fa4-24ae433c3f8f" />
+                        <Set Property="Icon.CatalogId" Value="la-star" Target="b17506c3-b800-47ed-8ee7-539fc4cec5a0" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked la-star-o" StateGroup="60559e31-8063-4852-9b6c-8692595bf479" ParentScene="60559e31-8063-4852-9b6c-8692595bf479" Created="02/17/2019 03:24:05" Id="85e3b486-d2d7-4e73-b514-caf10c84dfbe">
+            <Scene.KeyFrames>
+                <KeyFrame Id="f5f89f14-cb74-44cc-bbbb-cf30334991fc">
+                    <KeyFrame.Operations>
+                        <Set Property="Icon.CatalogId" Value="la-star" Target="0df2d40b-6d79-4550-9314-98b5b291e682" />
+                        <Set Property="Icon.CatalogId" Value="la-star" Target="58c991b9-f7a8-4ddb-920b-c58be74f0740" />
+                        <Set Property="Icon.CatalogId" Value="la-star" Target="907f2852-1599-4667-91f0-13a4bbac0f3f" />
+                        <Set Property="Icon.CatalogId" Value="la-star" Target="cde6272e-fc34-4149-8fa4-24ae433c3f8f" />
+                        <Set Property="Icon.CatalogId" Value="la-star" Target="b17506c3-b800-47ed-8ee7-539fc4cec5a0" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

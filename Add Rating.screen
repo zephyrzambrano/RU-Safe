@@ -43,19 +43,19 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="b01acd6c-cb66-4e57-9cd9-31e5593d3f7b">
                             <Add.Item>
-                                <ScreenPartInstance TemplateReference="/Screenparts/Screenpart.screenpart" Id="2c40849f-cc7f-4cba-834f-7f8a83b426c3" Panel.Bounds="42,27,0*,0*" />
+                                <ScreenPartInstance TemplateReference="/Screenparts/Star Rating.screenpart" Id="2c40849f-cc7f-4cba-834f-7f8a83b426c3" Panel.Bounds="42,27,0*,0*" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="b01acd6c-cb66-4e57-9cd9-31e5593d3f7b">
                             <Add.Item>
                                 <ComboBox IsOpen="True" Id="fbc8b1bd-3dc4-49bf-b78b-3030f00964cd" Panel.Bounds="42,27,287{5,2147483647},28{5,2147483647}">
                                     <ComboBox.Items>
-                                        <Item Text="Item 1" Id="88438720-b52f-48ca-a31b-c09c2514f3cb">
+                                        <Item Text="Frat (XYZ)" Id="88438720-b52f-48ca-a31b-c09c2514f3cb">
                                             <Item.Selected>
                                                 <CommandSwitchTo SceneId="d18f3170-6cd5-4c10-8c8b-a164b1725b0f" AutoRevertEvent="Item.Unselected" Created="02/17/2019 00:06:21" Id="6165558a-36e7-4576-8c93-49f071d567c9" />
                                             </Item.Selected>
                                         </Item>
-                                        <Item Text="Item 2" Id="11634ba5-a8df-40bb-9166-f1bd9e8c8a15">
+                                        <Item Text="Frat (ABC)" Id="11634ba5-a8df-40bb-9166-f1bd9e8c8a15">
                                             <Item.Selected>
                                                 <CommandSwitchTo SceneId="d18f3170-6cd5-4c10-8c8b-a164b1725b0f" AutoRevertEvent="Item.Unselected" Created="02/17/2019 00:13:21" Id="5f565cb2-2dca-4b27-9d3c-465607074a2d" />
                                             </Item.Selected>
@@ -69,7 +69,7 @@
                 </KeyFrame>
             </Scene.KeyFrames>
         </Scene>
-        <Scene Title="Selected Item 1" ParentScene="c2644175-1d12-46d8-9e94-a8dac5edaf6a" Created="02/17/2019 00:06:21" Id="d18f3170-6cd5-4c10-8c8b-a164b1725b0f">
+        <Scene Title="Selected Frat (XYZ)" ParentScene="c2644175-1d12-46d8-9e94-a8dac5edaf6a" Created="02/17/2019 00:06:21" Id="d18f3170-6cd5-4c10-8c8b-a164b1725b0f">
             <Scene.KeyFrames>
                 <KeyFrame Id="5fda6548-d12d-4816-b354-cb8c6afc773d">
                     <KeyFrame.Operations>
@@ -151,7 +151,7 @@
                                                 </SharedPart>
                                             </ListItem.Content>
                                             <ListItem.Click>
-                                                <CommandNavigate Screen="/Screen2.screen" Created="02/17/2019 01:18:14" Id="45e5e7e9-b8cf-4de8-93a2-7213134a2c80">
+                                                <CommandNavigate Screen="/Rating Screen.screen" Created="02/17/2019 01:18:14" Id="45e5e7e9-b8cf-4de8-93a2-7213134a2c80">
                                                     <CommandNavigate.Transition>
                                                         <NavigateTransition Duration="0" />
                                                     </CommandNavigate.Transition>
@@ -438,6 +438,13 @@
                                                     </SharedPart.Customizations>
                                                 </SharedPart>
                                             </ListItem.Content>
+                                            <ListItem.Click>
+                                                <CommandNavigate Screen="/Rating Screen.screen" Created="02/17/2019 02:00:21" Id="1abffc23-8f4b-4c97-83c3-1171c5125d27">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </ListItem.Click>
                                         </ListItem>
                                         <ListItem Id="5c35744e-bc4b-486e-bae1-ee6214cf9e94">
                                             <ListItem.Content>
@@ -560,12 +567,55 @@
                                                     </SharedPart.Customizations>
                                                 </SharedPart>
                                             </ListItem.Content>
+                                            <ListItem.Click>
+                                                <CommandNavigate Screen="/Rating Screen.screen" Created="02/17/2019 02:01:16" Id="3747e64b-bd63-44e4-95aa-fbb09ead308f">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </ListItem.Click>
                                         </ListItem>
                                     </i:ContentList.Items>
                                 </i:ContentList>
                             </Add.Item>
                         </Add>
+                        <Add Property="Panel.Children" Target="b01acd6c-cb66-4e57-9cd9-31e5593d3f7b">
+                            <Add.Item>
+                                <i:SearchBar WatermarkText="Search" FontFamily="Open Sans" Id="4d343ede-4eb6-4827-9469-f3fae144d33d" Panel.Bounds="15,28,339{105,2147483647},5*{5,2147483647}">
+                                    <i:SearchBar.GotFocus>
+                                        <CommandSwitchTo SceneId="f990b48b-248f-46d2-bd8b-a5cf214fad14" AutoRevertEvent="TextBox.LostFocus" Created="02/17/2019 02:24:15" Id="2e110e21-7c44-4d20-8274-e700f5ce3601" />
+                                    </i:SearchBar.GotFocus>
+                                </i:SearchBar>
+                            </Add.Item>
+                        </Add>
+                        <Move To="41,6" Before="4d343ede-4eb6-4827-9469-f3fae144d33d" Target="2c40849f-cc7f-4cba-834f-7f8a83b426c3" />
                         <Remove Target="fbc8b1bd-3dc4-49bf-b78b-3030f00964cd" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Focused On Search Bar" ParentScene="d18f3170-6cd5-4c10-8c8b-a164b1725b0f" Created="02/17/2019 02:24:30" Id="f990b48b-248f-46d2-bd8b-a5cf214fad14">
+            <Scene.KeyFrames>
+                <KeyFrame Id="a4e093a4-cbe1-436a-83d4-27a6aafaa886">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="b01acd6c-cb66-4e57-9cd9-31e5593d3f7b">
+                            <Add.Item>
+                                <ComboBox IsOpen="True" Id="c911ad5b-3584-4e65-93a8-bde224867775" Panel.Bounds="16,28,338{5,2147483647},28{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Item 1" Id="ba031e5d-e3fb-4d62-aa28-af4b0ccdb047">
+                                            <Item.Click>
+                                                <CommandSwitchTo SceneId="d18f3170-6cd5-4c10-8c8b-a164b1725b0f" Created="02/17/2019 02:26:00" Id="a337703e-9a1f-40f8-8a2f-f6a94b0d94bd" />
+                                            </Item.Click>
+                                        </Item>
+                                        <Item Text="Item 2" Id="6a893432-8413-48b9-983e-753abc6dd484">
+                                            <Item.Click>
+                                                <CommandSwitchTo SceneId="d18f3170-6cd5-4c10-8c8b-a164b1725b0f" Created="02/17/2019 02:26:16" Id="d7ad18e6-5daa-4381-87c3-cb18e609c683" />
+                                            </Item.Click>
+                                        </Item>
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>

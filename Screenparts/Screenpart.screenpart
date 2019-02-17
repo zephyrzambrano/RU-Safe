@@ -1,0 +1,29 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="12.0.0.8"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     Id="37cf9691-1d1e-43f7-91d8-1bd1556add6a" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="291" Height="66" Background="#00FFFFFF" Id="ac3a20ba-1ee8-407e-99e1-0e6af3875fcb">
+            <BorderedContent.Layers>
+                <Layer Id="00c6b610-60dd-4654-984d-d56983c4167c" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="1708c1a3-12bf-4013-980a-0e5686a73b59" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="8f45170c-6ba8-4631-a1d6-91210e32ef3c" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="23336189-731b-494c-8b2c-7ecd8167530b" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="02/16/2019 23:27:35" Id="60559e31-8063-4852-9b6c-8692595bf479">
+            <Scene.KeyFrames>
+                <KeyFrame Id="2e23b063-251f-4c64-907f-0e769d8a8aa7" />
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

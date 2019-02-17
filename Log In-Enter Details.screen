@@ -1,5 +1,6 @@
 ﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
 <Page xmlns="http://prototypes.infragistics.com/"
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
                                                                                 Id="f9ea83e6-30e6-4705-b9d7-fa5bc01675b5">
     <Page.Content>
         <Content Width="375" Height="647" Id="84624e4b-7d9b-4e8d-aa51-61ac58434038">
@@ -21,7 +22,53 @@
     <Page.Scenes>
         <Scene Title="Start" Created="02/16/2019 22:52:58" Id="6a323ff3-9d00-4260-920b-fba5c56af2bc">
             <Scene.KeyFrames>
-                <KeyFrame Id="ed5b50bb-80b5-4f54-93d6-b1ed6a9f2a38" />
+                <KeyFrame Id="ed5b50bb-80b5-4f54-93d6-b1ed6a9f2a38">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
+                            <Add.Item>
+                                <i:TextField FontFamily="Open Sans" Id="98972955-12f2-433c-8465-9ee09268b3aa" Panel.Bounds="44,239,287{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
+                            <Add.Item>
+                                <i:TextField FontFamily="Open Sans" Id="d166f30c-fc67-4c37-a656-12b4b87013cd" Panel.Bounds="42,421,287{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
+                            <Add.Item>
+                                <i:Label RichText="Enter Phone # or .edu Email Address" Align="Center" FontSize="24" FontFamily="Open Sans" Id="638ada81-0e54-4030-b4c9-f3d0e98d1be7" Panel.Bounds="48,171,278{5,2147483647},66{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
+                            <Add.Item>
+                                <i:Label RichText="&lt;Run FontSize=&quot;24&quot; &gt;Enter Password&lt;/Run&gt;" Align="Center" FontFamily="Open Sans" Id="76ad4505-3811-47c1-a470-9005b42f3bed" Panel.Bounds="15,371,345{5,2147483647},33*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="dd78aad1-a7a9-487e-88de-9a6b2c987cff" Panel.Bounds="15,610,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandNavigate Screen="/Log In or Sign Up.screen" Created="02/16/2019 23:37:27" Id="c79afad9-ba47-44a3-b5f7-7c4fd579b4c6">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
+                            <Add.Item>
+                                <i:Title RichText="&lt;Run FontSize=&quot;48&quot; &gt;Log In&lt;/Run&gt;" FontFamily="Open Sans" Id="20524f1d-1c8e-4ce5-a6f4-e90d59e3e89d" Panel.Bounds="114,44,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
+                            <Add.Item>
+                                <i:ActionSheetButton ButtonType="Action" Text="Log In" Id="67fba269-eb06-4b02-a466-fccd7a4e947e" Panel.Bounds="8,521,359{25,2147483647},44*{44,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
             </Scene.KeyFrames>
         </Scene>
     </Page.Scenes>

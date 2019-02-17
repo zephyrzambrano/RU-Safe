@@ -59,7 +59,15 @@
                                                 </CommandNavigate>
                                             </Item.Selected>
                                         </Item>
-                                        <Item Text="Frat (ABC)" Id="11634ba5-a8df-40bb-9166-f1bd9e8c8a15" />
+                                        <Item Text="Frat (ABC)" Id="11634ba5-a8df-40bb-9166-f1bd9e8c8a15">
+                                            <Item.Selected>
+                                                <CommandNavigate Screen="/Dup more info.screen" Created="02/17/2019 14:57:02" Id="21ed37e4-f2d3-412c-8420-60840fabacae">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Item.Selected>
+                                        </Item>
                                     </ComboBox.Items>
                                 </ComboBox>
                             </Add.Item>

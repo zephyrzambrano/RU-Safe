@@ -118,7 +118,7 @@
                             <Add.Item>
                                 <i:SearchBar WatermarkText="Search" FontFamily="Open Sans" Id="e8cbd2ce-a7a0-b13d-abba-7009b57eb820" Panel.Bounds="40,14,256{105,2147483647},5*{5,2147483647}">
                                     <i:SearchBar.Click>
-                                        <CommandNavigate Screen="/Add Rating.screen" State="c2644175-1d12-46d8-9e94-a8dac5edaf6a" Created="02/17/2019 03:39:13" Id="ca2cbe9d-47ce-45a2-bb96-4b0025e173e1">
+                                        <CommandNavigate Screen="/Add Rating - Duplicate.screen" State="c2644175-1d12-46d8-9e94-a8dac5edaf6a" Created="02/17/2019 03:39:13" Id="2f86b439-1899-4a86-887d-2ca6623e1fba">
                                             <CommandNavigate.Transition>
                                                 <NavigateTransition Duration="0" />
                                             </CommandNavigate.Transition>

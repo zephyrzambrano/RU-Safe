@@ -1,0 +1,38 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="12.0.0.8"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                     Id="5866450c-9be8-4ae0-a2c1-0e94a71afb34" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="290" Height="28" Background="#00FFFFFF" Id="acd4735f-27ef-48f9-9fab-5009880bf072">
+            <BorderedContent.Layers>
+                <Layer Id="5725bb2d-5a75-49bc-999a-0dc1590cc8bd" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="a25b5701-c429-41c2-84b5-2ee8731e9f9b" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="66126e13-4377-49b2-a319-a42fb9b233c0" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="bd007ce7-15ed-44e1-b808-ea815ec764e2" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="02/16/2019 23:30:44" Id="f2c8adb5-bd64-4819-962e-423c8c72b167">
+            <Scene.KeyFrames>
+                <KeyFrame Id="2889ef3b-91c6-416c-9483-20b51433ed26">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="5725bb2d-5a75-49bc-999a-0dc1590cc8bd">
+                            <Add.Item>
+                                <i:SearchBar WatermarkText="Search" FontFamily="Open Sans" Id="fa80416c-8565-44a2-9227-3cf28f167d55" Panel.Bounds="0,0,290{105,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

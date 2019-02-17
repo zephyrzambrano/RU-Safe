@@ -1,0 +1,42 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                Id="abd12bd0-9a1d-4031-851d-b421106db3f0">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="d1889717-3aeb-4451-ba27-125f14d82841">
+            <Content.Layers>
+                <Layer Id="28de07a9-7fc6-405f-a331-2e1ba2c21b01" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="0ac864a3-feb5-47b1-9952-087c72f8b7d4" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="080439a8-7e4d-4329-a3fd-f9abd6227ad1" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="228ebfdc-8f60-4922-9446-eee8d4058949" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="02/17/2019 01:18:14" Id="432b78b5-f7b0-4589-ae38-21bfd72171a1">
+            <Scene.KeyFrames>
+                <KeyFrame Id="d61891c5-efa1-4ffc-9269-1d6d768e603c">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="28de07a9-7fc6-405f-a331-2e1ba2c21b01">
+                            <Add.Item>
+                                <Icon CatalogId="la-puzzle-piece" Id="92f05e6d-9724-40cd-ab78-051899ef5c0c" Panel.Bounds="259,9,94{5,2147483647},94{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="28de07a9-7fc6-405f-a331-2e1ba2c21b01">
+                            <Add.Item>
+                                <i:Title RichText="&lt;Run FontSize=&quot;30&quot; &gt;Rate Frat (XYZ)&lt;/Run&gt;" FontSize="36" FontFamily="Open Sans" FontStyle="Bold" Id="296c569c-8d3f-4150-ae5f-8608f7de38ad" Panel.Bounds="30,30,226{5,2147483647},43{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

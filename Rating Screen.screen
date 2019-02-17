@@ -41,51 +41,6 @@
                         </Add>
                         <Add Property="Panel.Children" Target="28de07a9-7fc6-405f-a331-2e1ba2c21b01">
                             <Add.Item>
-                                <Icon CatalogId="la-star-o" Id="7534c0be-2565-4faa-863c-b06e589c6aac" Panel.Bounds="82,148,32{5,2147483647},32{5,2147483647}">
-                                    <Icon.Click>
-                                        <CommandSwitchTo SceneId="89d3609b-a95d-4158-8b6b-0b51ce700e00" Created="02/17/2019 02:03:33" Id="b1cc3685-5682-4031-aa5a-1d35b818dbce" />
-                                    </Icon.Click>
-                                </Icon>
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="28de07a9-7fc6-405f-a331-2e1ba2c21b01">
-                            <Add.Item>
-                                <Icon CatalogId="la-star-o" Id="196ed071-23c7-4a85-bac1-8a6596592647" Panel.Bounds="119,148,32{5,2147483647},32{5,2147483647}">
-                                    <Icon.Click>
-                                        <CommandSwitchTo SceneId="91e97ec4-5d41-4540-89a2-0c05ae3a5c85" Created="02/17/2019 02:09:35" Id="1747dced-c810-44f8-81ac-47df19a930c6" />
-                                    </Icon.Click>
-                                </Icon>
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="28de07a9-7fc6-405f-a331-2e1ba2c21b01">
-                            <Add.Item>
-                                <Icon CatalogId="la-star-o" Id="883e87f2-08a2-445e-8708-c6198b195f7d" Panel.Bounds="156,148,32{5,2147483647},32{5,2147483647}">
-                                    <Icon.Click>
-                                        <CommandSwitchTo SceneId="acb468ae-ad94-469e-91b0-a6ff050cd8c8" Created="02/17/2019 02:30:50" Id="2a0c4437-af03-4e9a-8d9e-0c6dde77b86d" />
-                                    </Icon.Click>
-                                </Icon>
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="28de07a9-7fc6-405f-a331-2e1ba2c21b01">
-                            <Add.Item>
-                                <Icon CatalogId="la-star-o" Id="d49c2f7c-cbfa-43b5-9537-c0d9319f1255" Panel.Bounds="193,148,32{5,2147483647},32{5,2147483647}">
-                                    <Icon.Click>
-                                        <CommandSwitchTo SceneId="7b00d31e-538c-414b-a43a-7488f1303bfd" Created="02/17/2019 02:32:49" Id="fd0e9a00-8711-40fc-950b-ff729b5ae5d1" />
-                                    </Icon.Click>
-                                </Icon>
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="28de07a9-7fc6-405f-a331-2e1ba2c21b01">
-                            <Add.Item>
-                                <Icon CatalogId="la-star-o" Id="e654ef1a-c665-445d-9099-5008f155844b" Panel.Bounds="230,148,32{5,2147483647},32{5,2147483647}">
-                                    <Icon.Click>
-                                        <CommandSwitchTo SceneId="843fd733-cb2f-441b-84fe-ca4e7e482f80" Created="02/17/2019 02:33:50" Id="be2d5879-a920-4bb2-9101-9fcdb410a224" />
-                                    </Icon.Click>
-                                </Icon>
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="28de07a9-7fc6-405f-a331-2e1ba2c21b01">
-                            <Add.Item>
                                 <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="82e572e4-2995-4275-8149-3bfcf9c01b80" Panel.Bounds="16,605,68{40,2147483647},5*{5,2147483647}">
                                     <i:NavigationButton.Click>
                                         <CommandNavigate Screen="/Add Rating.screen" State="d18f3170-6cd5-4c10-8c8b-a164b1725b0f" Created="02/17/2019 01:56:40" Id="2c947b37-1a96-404c-a4f8-cb5dc6a66104">
@@ -104,161 +59,31 @@
                         </Add>
                         <Add Property="Panel.Children" Target="28de07a9-7fc6-405f-a331-2e1ba2c21b01">
                             <Add.Item>
-                                <ScreenPartInstance TemplateReference="/Screenparts/Star Rating.screenpart" Id="c1b5d8af-acfe-4472-aebc-40f07611370b" Panel.Bounds="48,278,5*{5,2147483647},5*{5,2147483647}">
-                                    <ScreenPartInstance.Customizations>
-                                        <Add Property="Panel.Children" Target="00c6b610-60dd-4654-984d-d56983c4167c">
-                                            <Add.Item>
-                                                <Icon CatalogId="la-star-o" Id="078d300e-afc0-40da-ba72-a23001435980" Panel.Bounds="76,17,32{5,2147483647},32{5,2147483647}" />
-                                            </Add.Item>
-                                        </Add>
-                                        <Add Property="Panel.Children" Target="00c6b610-60dd-4654-984d-d56983c4167c">
-                                            <Add.Item>
-                                                <Icon CatalogId="la-star-o" Id="616339f1-2889-4661-84bf-8137b818e470" Panel.Bounds="113,17,32{5,2147483647},32{5,2147483647}" />
-                                            </Add.Item>
-                                        </Add>
-                                        <Add Property="Panel.Children" Target="00c6b610-60dd-4654-984d-d56983c4167c">
-                                            <Add.Item>
-                                                <Icon CatalogId="la-star-o" Id="e8c296b2-6100-4c54-98a3-bfe3f70841b5" Panel.Bounds="150,17,32{5,2147483647},32{5,2147483647}" />
-                                            </Add.Item>
-                                        </Add>
-                                        <Add Property="Panel.Children" Target="00c6b610-60dd-4654-984d-d56983c4167c">
-                                            <Add.Item>
-                                                <Icon CatalogId="la-star-o" Id="035a78a9-b2ff-4761-84dd-e0ac01beb1ae" Panel.Bounds="185,17,32{5,2147483647},32{5,2147483647}" />
-                                            </Add.Item>
-                                        </Add>
-                                        <Add Property="Panel.Children" Target="00c6b610-60dd-4654-984d-d56983c4167c">
-                                            <Add.Item>
-                                                <Icon CatalogId="la-star-o" Id="7c5648e8-eaf8-4ee2-9623-d5627dfce583" Panel.Bounds="39,17,32{5,2147483647},32{5,2147483647}">
-                                                    <Icon.Click>
-                                                        <CommandSwitchTo SceneId="d61a69c1-9720-43a0-80b6-482d33f8b713" Created="02/17/2019 02:51:50" Id="795233fd-ed75-4def-ae5f-1222a9fba27c" />
-                                                    </Icon.Click>
-                                                </Icon>
-                                            </Add.Item>
-                                        </Add>
-                                    </ScreenPartInstance.Customizations>
-                                    <ScreenPartInstance.Click>
-                                        <CommandSwitchTo SceneId="f33b898c-fdd3-4c3a-9757-3e6b6898c4b6" Created="02/17/2019 02:59:09" Id="753749ac-bdb1-4b86-ac37-da2f7a1070e2" />
-                                    </ScreenPartInstance.Click>
-                                </ScreenPartInstance>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Star Rating.screenpart" Id="f7217e21-e384-4da8-9503-14dffe4fee7c" Panel.Bounds="30,263,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
-                    </KeyFrame.Operations>
-                </KeyFrame>
-            </Scene.KeyFrames>
-        </Scene>
-        <Scene Title="Tapped la-star-o" StateGroup="432b78b5-f7b0-4589-ae38-21bfd72171a1" ParentScene="432b78b5-f7b0-4589-ae38-21bfd72171a1" Created="02/17/2019 02:11:18" Id="89d3609b-a95d-4158-8b6b-0b51ce700e00">
-            <Scene.KeyFrames>
-                <KeyFrame Id="b4c0a66b-b52a-447a-a44c-95368b2b41ed">
-                    <KeyFrame.Operations>
-                        <Add Property="Control.Click" Target="c1b5d8af-acfe-4472-aebc-40f07611370b.7c5648e8-eaf8-4ee2-9623-d5627dfce583">
+                        <Add Property="Panel.Children" Target="28de07a9-7fc6-405f-a331-2e1ba2c21b01">
                             <Add.Item>
-                                <CommandSwitchTo SceneId="8b1401f6-4578-4a90-b1ab-a5e6cca377be" Created="02/17/2019 02:56:34" Id="596f59a2-5d43-4f48-9bc4-d9e576169c84" />
+                                <ScreenPartInstance TemplateReference="/Screenparts/Star Rating.screenpart" Id="6b971725-5873-48e3-8e78-5dd10ddf530b" Panel.Bounds="30,140,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
-                        <Add Property="Control.Click" Target="c1b5d8af-acfe-4472-aebc-40f07611370b.078d300e-afc0-40da-ba72-a23001435980">
+                        <Add Property="Panel.Children" Target="28de07a9-7fc6-405f-a331-2e1ba2c21b01">
                             <Add.Item>
-                                <CommandSwitchTo SceneId="a48c27d7-835a-4d6c-9fce-d8f666b69a0f" Created="02/17/2019 02:57:56" Id="0daebf1a-9f6b-4db9-9d9d-e787968fdd68" />
+                                <i:TextArea Text="Have you experienced discrimination while at this fraternity, or by one of its members?" FontFamily="Open Sans" Id="3ca94182-3ff4-4ec1-bcfc-21a494f3fd04" Panel.Bounds="32,331,300{22,2147483647},66{31,2147483647}" />
                             </Add.Item>
                         </Add>
-                        <Set Property="Icon.CatalogId" Value="la-star" Target="7534c0be-2565-4faa-863c-b06e589c6aac" />
-                        <Remove Target="c1b5d8af-acfe-4472-aebc-40f07611370b.795233fd-ed75-4def-ae5f-1222a9fba27c" />
-                    </KeyFrame.Operations>
-                </KeyFrame>
-            </Scene.KeyFrames>
-        </Scene>
-        <Scene Title="Tapped la-star-o" StateGroup="432b78b5-f7b0-4589-ae38-21bfd72171a1" ParentScene="432b78b5-f7b0-4589-ae38-21bfd72171a1" Created="02/17/2019 02:29:19" Id="91e97ec4-5d41-4540-89a2-0c05ae3a5c85">
-            <Scene.KeyFrames>
-                <KeyFrame Id="b0adbba5-56b8-4a2a-9935-455009c54f00">
-                    <KeyFrame.Operations>
-                        <Set Property="Icon.CatalogId" Value="la-star" Target="196ed071-23c7-4a85-bac1-8a6596592647" />
-                        <Set Property="Icon.CatalogId" Value="la-star" Target="7534c0be-2565-4faa-863c-b06e589c6aac" />
-                    </KeyFrame.Operations>
-                </KeyFrame>
-            </Scene.KeyFrames>
-        </Scene>
-        <Scene Title="Tapped la-star-o" StateGroup="432b78b5-f7b0-4589-ae38-21bfd72171a1" ParentScene="432b78b5-f7b0-4589-ae38-21bfd72171a1" Created="02/17/2019 02:30:50" Id="acb468ae-ad94-469e-91b0-a6ff050cd8c8">
-            <Scene.KeyFrames>
-                <KeyFrame Id="09a7f3e9-8f84-4582-aa32-255e5e4e61e3">
-                    <KeyFrame.Operations>
-                        <Set Property="Icon.CatalogId" Value="la-star" Target="883e87f2-08a2-445e-8708-c6198b195f7d" />
-                        <Set Property="Icon.CatalogId" Value="la-star" Target="196ed071-23c7-4a85-bac1-8a6596592647" />
-                        <Set Property="Icon.CatalogId" Value="la-star" Target="7534c0be-2565-4faa-863c-b06e589c6aac" />
-                    </KeyFrame.Operations>
-                </KeyFrame>
-            </Scene.KeyFrames>
-        </Scene>
-        <Scene Title="Tapped la-star-o" StateGroup="432b78b5-f7b0-4589-ae38-21bfd72171a1" ParentScene="432b78b5-f7b0-4589-ae38-21bfd72171a1" Created="02/17/2019 02:32:49" Id="7b00d31e-538c-414b-a43a-7488f1303bfd">
-            <Scene.KeyFrames>
-                <KeyFrame Id="25a75fa1-99c1-4ccc-b5bb-1613d2a846b8">
-                    <KeyFrame.Operations>
-                        <Set Property="Icon.CatalogId" Value="la-star" Target="d49c2f7c-cbfa-43b5-9537-c0d9319f1255" />
-                        <Set Property="Icon.CatalogId" Value="la-star" Target="883e87f2-08a2-445e-8708-c6198b195f7d" />
-                        <Set Property="Icon.CatalogId" Value="la-star" Target="196ed071-23c7-4a85-bac1-8a6596592647" />
-                        <Set Property="Icon.CatalogId" Value="fa-star" Target="7534c0be-2565-4faa-863c-b06e589c6aac" />
-                    </KeyFrame.Operations>
-                </KeyFrame>
-            </Scene.KeyFrames>
-        </Scene>
-        <Scene Title="Tapped la-star-o" StateGroup="432b78b5-f7b0-4589-ae38-21bfd72171a1" ParentScene="432b78b5-f7b0-4589-ae38-21bfd72171a1" Created="02/17/2019 02:33:50" Id="843fd733-cb2f-441b-84fe-ca4e7e482f80">
-            <Scene.KeyFrames>
-                <KeyFrame Id="d7c277e6-7914-48ab-a711-3526be71a77c">
-                    <KeyFrame.Operations>
-                        <Set Property="Icon.CatalogId" Value="la-star" Target="e654ef1a-c665-445d-9099-5008f155844b" />
-                        <Set Property="Icon.CatalogId" Value="la-star" Target="d49c2f7c-cbfa-43b5-9537-c0d9319f1255" />
-                        <Set Property="Icon.CatalogId" Value="la-star" Target="883e87f2-08a2-445e-8708-c6198b195f7d" />
-                        <Set Property="Icon.CatalogId" Value="la-star" Target="196ed071-23c7-4a85-bac1-8a6596592647" />
-                        <Set Property="Icon.CatalogId" Value="la-star" Target="7534c0be-2565-4faa-863c-b06e589c6aac" />
-                    </KeyFrame.Operations>
-                </KeyFrame>
-            </Scene.KeyFrames>
-        </Scene>
-        <Scene Title="Tapped la-star-o" StateGroup="432b78b5-f7b0-4589-ae38-21bfd72171a1" ParentScene="432b78b5-f7b0-4589-ae38-21bfd72171a1" Created="02/17/2019 02:51:50" Id="d61a69c1-9720-43a0-80b6-482d33f8b713">
-            <Scene.KeyFrames>
-                <KeyFrame Id="a3dc7b90-66da-4bca-8a7b-4874ad8d25a4">
-                    <KeyFrame.Operations>
-                        <Set Property="Icon.CatalogId" Value="la-star" Target="c1b5d8af-acfe-4472-aebc-40f07611370b.7c5648e8-eaf8-4ee2-9623-d5627dfce583" />
-                    </KeyFrame.Operations>
-                </KeyFrame>
-            </Scene.KeyFrames>
-        </Scene>
-        <Scene Title="Tapped la-star-o" StateGroup="89d3609b-a95d-4158-8b6b-0b51ce700e00" ParentScene="89d3609b-a95d-4158-8b6b-0b51ce700e00" Created="02/17/2019 02:56:34" Id="8b1401f6-4578-4a90-b1ab-a5e6cca377be">
-            <Scene.KeyFrames>
-                <KeyFrame Id="049c5d6b-2385-4ccd-8cd8-acb1f500eb7a">
-                    <KeyFrame.Operations>
-                        <Set Property="Icon.CatalogId" Value="la-star" Target="c1b5d8af-acfe-4472-aebc-40f07611370b.7c5648e8-eaf8-4ee2-9623-d5627dfce583" />
-                    </KeyFrame.Operations>
-                </KeyFrame>
-            </Scene.KeyFrames>
-        </Scene>
-        <Scene Title="Tapped la-star-o" StateGroup="89d3609b-a95d-4158-8b6b-0b51ce700e00" ParentScene="89d3609b-a95d-4158-8b6b-0b51ce700e00" Created="02/17/2019 02:57:56" Id="a48c27d7-835a-4d6c-9fce-d8f666b69a0f">
-            <Scene.KeyFrames>
-                <KeyFrame Id="1a0e1ee4-9982-4488-9cf3-aaa6573a198e">
-                    <KeyFrame.Operations>
-                        <Set Property="Icon.CatalogId" Value="la-star" Target="c1b5d8af-acfe-4472-aebc-40f07611370b.078d300e-afc0-40da-ba72-a23001435980" />
-                        <Set Property="Icon.CatalogId" Value="la-star" Target="c1b5d8af-acfe-4472-aebc-40f07611370b.7c5648e8-eaf8-4ee2-9623-d5627dfce583" />
-                    </KeyFrame.Operations>
-                </KeyFrame>
-            </Scene.KeyFrames>
-        </Scene>
-        <Scene Title="Tapped Screenpart" StateGroup="432b78b5-f7b0-4589-ae38-21bfd72171a1" ParentScene="432b78b5-f7b0-4589-ae38-21bfd72171a1" Created="02/17/2019 02:59:09" Id="f33b898c-fdd3-4c3a-9757-3e6b6898c4b6">
-            <Scene.KeyFrames>
-                <KeyFrame Id="95bc3aa8-1e82-43fc-a0f5-8e0c6a08a6da">
-                    <KeyFrame.Operations>
-                        <Add Property="Control.Click" Target="c1b5d8af-acfe-4472-aebc-40f07611370b.078d300e-afc0-40da-ba72-a23001435980">
+                        <Add Property="Panel.Children" Target="28de07a9-7fc6-405f-a331-2e1ba2c21b01">
                             <Add.Item>
-                                <CommandSwitchTo SceneId="48714a61-6148-43d8-b64f-dda2e4705286" Created="02/17/2019 02:59:53" Id="4e3add8e-f870-4b92-ba89-37219be8ea6d" />
+                                <ComboBox IsOpen="True" Id="6b3f8eb4-32f6-403d-a379-18f4cbc9b9de" Panel.Bounds="32,379,304{5,2147483647},32{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Item 1" Id="e59b263e-1e83-40fe-8438-cd6a45e09515" />
+                                        <Item Text="Item 2" Id="20539de4-24e1-4fb1-8caa-05627c06fbdd" />
+                                        <Item Text="New Item" Id="bc8d3c3e-38cd-41fd-9bf7-2b6ce0a22a20" />
+                                        <Item Text="New Item" Id="5f1fbfb8-17f4-4767-9cc4-a3cf08661835" />
+                                    </ComboBox.Items>
+                                </ComboBox>
                             </Add.Item>
                         </Add>
-                        <Set Property="Icon.CatalogId" Value="la-star" Target="c1b5d8af-acfe-4472-aebc-40f07611370b.7c5648e8-eaf8-4ee2-9623-d5627dfce583" />
-                    </KeyFrame.Operations>
-                </KeyFrame>
-            </Scene.KeyFrames>
-        </Scene>
-        <Scene Title="Tapped la-star-o" StateGroup="f33b898c-fdd3-4c3a-9757-3e6b6898c4b6" ParentScene="f33b898c-fdd3-4c3a-9757-3e6b6898c4b6" Created="02/17/2019 02:59:53" Id="48714a61-6148-43d8-b64f-dda2e4705286">
-            <Scene.KeyFrames>
-                <KeyFrame Id="dd73f65d-64e9-477a-8f98-492059256fdf">
-                    <KeyFrame.Operations>
-                        <Set Property="Icon.CatalogId" Value="la-star" Target="c1b5d8af-acfe-4472-aebc-40f07611370b.078d300e-afc0-40da-ba72-a23001435980" />
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>

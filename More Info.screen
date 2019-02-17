@@ -42,6 +42,56 @@
                                 </i:NavigationButton>
                             </Add.Item>
                         </Add>
+                        <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
+                            <Add.Item>
+                                <i:TextField Text="Safety:   1.4" FontSize="18" FontFamily="Open Sans" Id="a00cae30-c63c-d713-f23f-71a7d4611d9b" Panel.Bounds="8,78,351{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
+                            <Add.Item>
+                                <i:TextField Text="Reccomendation: 1.4" FontSize="18" FontFamily="Open Sans" Id="f668f54f-1b2e-9c05-ba2a-26ae407b9086" Panel.Bounds="8,117,351{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
+                            <Add.Item>
+                                <i:TextField Text="Would go again:   1.4" FontSize="18" FontFamily="Open Sans" Id="b4105b0a-f3f7-477e-3934-bd7358352ee1" Panel.Bounds="8,234,351{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
+                            <Add.Item>
+                                <i:TextField Text="Discrimination:" FontSize="18" FontFamily="Open Sans" Id="cbd4e736-fe40-d367-572e-cdfb6189edfd" Panel.Bounds="8,399,351{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
+                            <Add.Item>
+                                <i:TextField Text="Negative Experiences:" FontSize="18" FontFamily="Open Sans" Id="c3031735-5727-dded-af81-7dbf773a684e" Panel.Bounds="8,273,351{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
+                            <Add.Item>
+                                <i:TextField Text="Trustworthiness:" FontSize="18" FontFamily="Open Sans" Id="6b3a4921-f0cd-7ee2-51d5-8169f01806d5" Panel.Bounds="8,156,351{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
+                            <Add.Item>
+                                <i:TextField Text="Would go alone:" FontSize="18" FontFamily="Open Sans" Id="13f76ff5-95e6-b3b7-315a-59cc685d2edc" Panel.Bounds="8,195,351{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
+                            <Add.Item>
+                                <i:TextField Text="Google Mentions" FontSize="18" FontFamily="Open Sans" Id="84df2546-8f79-d34a-df86-6a14bb6e5c1c" Panel.Bounds="8,521,351{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
+                            <Add.Item>
+                                <i:TextField Text="Comments" FontSize="18" FontFamily="Open Sans" Id="829d3133-dc81-666b-af47-5847b5e633d1" Panel.Bounds="8,562,351{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
+                            <Add.Item>
+                                <Image SourcePath="assets/meta-chart.png" DevicePixelRatio="0.5" Crop="Size:[600,400],Rect:[66,14,445,328]" Id="1e41664c-b33e-c492-e785-0b0d9f2dbd9f" Panel.Bounds="17,307,122{5,2147483647},88{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>

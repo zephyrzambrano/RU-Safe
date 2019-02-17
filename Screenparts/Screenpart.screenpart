@@ -77,6 +77,15 @@
                                                                 <i:Label RichText="&lt;Run FontSize=&quot;11&quot; Foreground=&quot;#FF81ABE0&quot; &gt;(12 Ratings)&lt;/Run&gt;" Foreground="#FF8E8E8E" Id="f2ea0489-59e9-0a32-5348-4214b25c4996" Panel.Bounds="229,69,0*,0*" />
                                                             </Add.Item>
                                                         </Add>
+                                                        <Add Property="Control.Click" Target="613e759d-c70f-ca92-8c2f-755748b528d9">
+                                                            <Add.Item>
+                                                                <CommandNavigate Screen="/More Info.screen" Created="02/17/2019 03:15:51" Id="0b4f6896-a3c9-59a8-123d-1bb3951cd267">
+                                                                    <CommandNavigate.Transition>
+                                                                        <NavigateTransition Duration="0" />
+                                                                    </CommandNavigate.Transition>
+                                                                </CommandNavigate>
+                                                            </Add.Item>
+                                                        </Add>
                                                         <Set Property="ContainerBox.Color" Value="#FF000000" Target="7d409051-6a2b-c6cc-ddc9-9e0e8a56aa4d" />
                                                         <Set Property="ContainerBox.Thickness" Value="1" Target="7d409051-6a2b-c6cc-ddc9-9e0e8a56aa4d" />
                                                         <Set Property="Label.RichText" Value="&lt;Run FontSize=&quot;21&quot; &gt;Frat Name (DKP)&lt;/Run&gt;" Target="fc824ba6-e868-93ca-a9ab-88cea7391629" />

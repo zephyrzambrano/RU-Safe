@@ -39,7 +39,15 @@
                         </Add>
                         <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
                             <Add.Item>
-                                <i:ActionSheetButton ButtonType="Action" Text="Sign Up" Id="14cd9234-77cc-42d6-bd05-efd1a891feb7" Panel.Bounds="8,521,359{25,2147483647},44*{44,2147483647}" />
+                                <i:ActionSheetButton ButtonType="Action" Text="Sign Up" Id="14cd9234-77cc-42d6-bd05-efd1a891feb7" Panel.Bounds="8,521,359{25,2147483647},44*{44,2147483647}">
+                                    <i:ActionSheetButton.Click>
+                                        <CommandNavigate Screen="/Map.screen" Created="02/17/2019 03:33:54" Id="9731583f-c961-4cbe-ae15-dbf5ed59f87c">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:ActionSheetButton.Click>
+                                </i:ActionSheetButton>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
@@ -59,22 +67,22 @@
                         </Add>
                         <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
                             <Add.Item>
-                                <i:TextField FontFamily="Open Sans" Id="93a454a1-22f0-4995-a750-22e7f0fb0517" Panel.Bounds="46,355,287{22,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
-                            <Add.Item>
-                                <i:TextField FontFamily="Open Sans" Id="3e8b4ded-b1a4-4203-941e-9332b006e63c" Panel.Bounds="44,452,287{22,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
-                            <Add.Item>
                                 <i:Label RichText="Choose Username" Align="Center" FontSize="24" FontFamily="Open Sans" Id="8f708c3b-ee87-46b6-accb-5b3f576ec602" Panel.Bounds="48,148,278{5,2147483647},51{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
                             <Add.Item>
                                 <i:TextField FontFamily="Open Sans" Id="dcc5ff3c-d788-415a-9882-06de7f6ae17c" Panel.Bounds="46,209,287{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
+                            <Add.Item>
+                                <i:PasswordField FontFamily="Open Sans" Id="8d9e18a3-fbe8-47fe-93d5-f4f2689b2724" Panel.Bounds="42,346,287{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
+                            <Add.Item>
+                                <i:PasswordField FontFamily="Open Sans" Id="b5329f15-f088-4e16-aede-b04c381611fc" Panel.Bounds="42,440,287{22,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

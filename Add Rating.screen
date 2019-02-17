@@ -358,7 +358,15 @@
                         </Add>
                         <Add Property="Panel.Children" Target="b01acd6c-cb66-4e57-9cd9-31e5593d3f7b">
                             <Add.Item>
-                                <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="a01c1109-6056-4078-bf50-c85df2da63cf" Panel.Bounds="18,598,68{40,2147483647},5*{5,2147483647}" />
+                                <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="a01c1109-6056-4078-bf50-c85df2da63cf" Panel.Bounds="18,598,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandNavigate Screen="/Add Rating.screen" State="7bbad81a-2cf6-40fa-9776-9359cf538c19" Created="02/17/2019 03:49:54" Id="24953d22-96b5-4408-8a19-35982b34f554">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="b01acd6c-cb66-4e57-9cd9-31e5593d3f7b">

@@ -1,19 +1,18 @@
 ﻿<?Infragistics.Models format="xaml" version="4" appVersion="12.0.0.8"?>
 <ScreenPart xmlns="http://prototypes.infragistics.com/"
                                                                                      xmlns:d="http://prototypes.infragistics.com/views/design"
-                                                                                     xmlns:i="http://prototypes.infragistics.com/ios7/"
-                                                                                     Id="5866450c-9be8-4ae0-a2c1-0e94a71afb34" d:Design.ShowGuides="False">
+                                                                                     Id="37cf9691-1d1e-43f7-91d8-1bd1556add6a" d:Design.ShowGuides="False">
     <ScreenPart.Content>
-        <BorderedContent Width="290" Height="28" Background="#00FFFFFF" Id="acd4735f-27ef-48f9-9fab-5009880bf072">
+        <BorderedContent Width="291" Height="66" Background="#00FFFFFF" Id="ac3a20ba-1ee8-407e-99e1-0e6af3875fcb">
             <BorderedContent.Layers>
-                <Layer Id="5725bb2d-5a75-49bc-999a-0dc1590cc8bd" Panel.Layout="Stretch" />
-                <AnnotationsLayer Id="a25b5701-c429-41c2-84b5-2ee8731e9f9b" Panel.Layout="Stretch" />
+                <Layer Id="00c6b610-60dd-4654-984d-d56983c4167c" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="1708c1a3-12bf-4013-980a-0e5686a73b59" Panel.Layout="Stretch" />
             </BorderedContent.Layers>
             <BorderedContent.Viewbox>
-                <Viewbox Id="66126e13-4377-49b2-a319-a42fb9b233c0" />
+                <Viewbox Id="8f45170c-6ba8-4631-a1d6-91210e32ef3c" />
             </BorderedContent.Viewbox>
             <BorderedContent.GuidesInfo>
-                <GuidesInfo Id="bd007ce7-15ed-44e1-b808-ea815ec764e2" />
+                <GuidesInfo Id="23336189-731b-494c-8b2c-7ecd8167530b" />
             </BorderedContent.GuidesInfo>
         </BorderedContent>
     </ScreenPart.Content>
@@ -21,17 +20,9 @@
         <DeviceInfo Id="none" Orientation="None" />
     </ScreenPart.Device>
     <ScreenPart.Scenes>
-        <Scene Title="Start" Created="02/16/2019 23:30:44" Id="f2c8adb5-bd64-4819-962e-423c8c72b167">
+        <Scene Title="Start" Created="02/16/2019 23:27:35" Id="60559e31-8063-4852-9b6c-8692595bf479">
             <Scene.KeyFrames>
-                <KeyFrame Id="2889ef3b-91c6-416c-9483-20b51433ed26">
-                    <KeyFrame.Operations>
-                        <Add Property="Panel.Children" Target="5725bb2d-5a75-49bc-999a-0dc1590cc8bd">
-                            <Add.Item>
-                                <i:SearchBar WatermarkText="Search" FontFamily="Open Sans" Id="fa80416c-8565-44a2-9227-3cf28f167d55" Panel.Bounds="0,0,290{105,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                    </KeyFrame.Operations>
-                </KeyFrame>
+                <KeyFrame Id="2e23b063-251f-4c64-907f-0e769d8a8aa7" />
             </Scene.KeyFrames>
         </Scene>
     </ScreenPart.Scenes>

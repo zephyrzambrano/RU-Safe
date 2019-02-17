@@ -1,0 +1,45 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                Id="92e650d9-7b50-42ce-812e-bea29e4590be">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="73cb7f8c-708a-401f-ac73-a2b2b42c417c">
+            <Content.Layers>
+                <Layer Id="e2f67398-5dfb-4ed6-9219-f0a31849972c" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="46ece835-f3fe-4834-9573-39986fd1e7c3" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="47eb0408-0c3a-49e2-ac9a-529cc4e47c55" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="514c297e-b732-4f29-9bd0-8080745a957a" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="02/17/2019 03:56:52" Id="dbb0dba2-7a2d-4f18-9954-780cb13f7e5a">
+            <Scene.KeyFrames>
+                <KeyFrame Id="56fc3d3a-f6d3-47ed-9438-6cad6d99b9f2">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="e2f67398-5dfb-4ed6-9219-f0a31849972c">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="04239780-b985-42eb-a60d-87715cb6577e" Panel.Bounds="12,613,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandNavigate Screen="/Map.screen" Created="02/17/2019 03:57:29" Id="1b1f4698-ec06-4352-b34f-a43b1c9ccaea">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

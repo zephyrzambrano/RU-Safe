@@ -239,6 +239,26 @@
                                 <Label RichText="Describe your experience here" Foreground="#FF8D8D8D" FontFamily="Open Sans" Id="a521d4ad-d1a1-49a3-aa9c-df20a9a213b8" Panel.Bounds="72,236,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <i:TextArea Text="RUPD: 732-932-7111&#xA;" FontFamily="Open Sans" Id="a23da2be-c250-4752-afa2-9feb02b00e10" Panel.Bounds="29,485,325{22,2147483647},32{31,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <i:Label RichText="Report this incident:" FontFamily="Open Sans" Id="d72078d7-d7c8-43b7-a959-e33f66a6850a" Panel.Bounds="37,459,134{5,2147483647},20*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <i:Label RichText="Resources:" FontFamily="Open Sans" Id="93674ecb-7af0-4fb4-81a1-cf38f0d6f365" Panel.Bounds="37,523,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="14c5efc8-55bc-4119-b6f2-5308f56ae988">
+                            <Add.Item>
+                                <i:TextArea Text="VPVA Hotline: 848-932-1181" FontFamily="Open Sans" Id="58015357-8a93-4c0c-9aa6-4fb0d8967000" Panel.Bounds="37,541,221{22,2147483647},52{31,2147483647}" />
+                            </Add.Item>
+                        </Add>
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>

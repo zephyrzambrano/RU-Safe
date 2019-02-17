@@ -1,7 +1,7 @@
 ﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
-                                                                                Id="f9ea83e6-30e6-4705-b9d7-fa5bc01675b5">
+                                                                               xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                               Id="f9ea83e6-30e6-4705-b9d7-fa5bc01675b5">
     <Page.Content>
         <Content Width="375" Height="647" Id="84624e4b-7d9b-4e8d-aa51-61ac58434038">
             <Content.Layers>
@@ -64,7 +64,15 @@
                         </Add>
                         <Add Property="Panel.Children" Target="db018f50-09ff-4c0e-9903-5b435b76577e">
                             <Add.Item>
-                                <i:ActionSheetButton ButtonType="Action" Text="Log In" Id="67fba269-eb06-4b02-a466-fccd7a4e947e" Panel.Bounds="8,521,359{25,2147483647},44*{44,2147483647}" />
+                                <i:ActionSheetButton ButtonType="Action" Text="Log In" Id="67fba269-eb06-4b02-a466-fccd7a4e947e" Panel.Bounds="8,521,359{25,2147483647},44*{44,2147483647}">
+                                    <i:ActionSheetButton.Click>
+                                        <CommandNavigate Screen="/Map.screen" Created="02/17/2019 01:40:34" Id="c9814c1e-c653-bb9b-9fdc-a837653273da">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:ActionSheetButton.Click>
+                                </i:ActionSheetButton>
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

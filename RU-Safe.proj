@@ -1,10 +1,6 @@
 ﻿<?Infragistics.Models format="xaml" version="4" appVersion="12.0.0.8"?>
 <Project xmlns="http://prototypes.infragistics.com/"
-<<<<<<< HEAD
-                                                                                 Id="ULF25TWUV74U" StartScreens="/Log In or Sign Up.screen" IndigoVersion="12" RecentColors="#FF000000,#FFAE0000,#FF81ABE0,#FFFFFFFF,#FF8AB1D3,#FFC40000" LastUsedFonts="Open Sans" DefaultStylesheet="/Stylesheet.stylesheet">
-=======
-                                                                                  Id="ULF25TWUV74U" StartScreens="/Log In or Sign Up.screen" IndigoVersion="12" LastUsedFonts="Open Sans">
->>>>>>> cd80b365c794b20590248125ac0b68775e753310
+                                                                                 Id="ULF25TWUV74U" StartScreens="/Log In or Sign Up.screen" IndigoVersion="12" RecentColors="#FF48C157,#FF000000,#FFAE0000,#FF81ABE0,#FFFFFFFF,#FF8AB1D3,#FFC40000" LastUsedFonts="Open Sans" DefaultStylesheet="/Stylesheet.stylesheet">
     <Project.Defaults>
         <ProjectDefaults Viewport="375,647">
             <ProjectDefaults.Device>

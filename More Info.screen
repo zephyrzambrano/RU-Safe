@@ -26,7 +26,20 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
                             <Add.Item>
-                                <i:Header Text="Frat Name (XYZ)" FontSize="36" FontFamily="Open Sans" Id="d0f42452-eb89-45e2-d882-a84fc99d4af4" Panel.Bounds="10,10,359{5,2147483647},45{20,2147483647}" />
+                                <i:Header Text="Frat Name (XYZ)" FontSize="36" FontFamily="Open Sans" Id="d0f42452-eb89-45e2-d882-a84fc99d4af4" Panel.Bounds="0,14,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="5dd5f5f1-86ef-f59c-0c7f-02beda2cf171" Panel.Bounds="8,617,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandNavigate Screen="/Map.screen" Created="02/17/2019 01:43:31" Id="a168dc05-0a62-7c0f-35b9-92e06b000101">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

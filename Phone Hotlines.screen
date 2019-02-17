@@ -110,7 +110,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="082b9cf6-55c8-1364-43e6-79dfe043bc60">
                             <Add.Item>
-                                <i:ContentList Direction="Vertical" Thickness="0" Id="88460715-d8ee-094c-5dc7-1560a07343e8" Panel.Bounds="-4,92,375{5,2147483647},5*{5,2147483647}">
+                                <i:ContentList Direction="Vertical" Thickness="0" Id="88460715-d8ee-094c-5dc7-1560a07343e8" Panel.Bounds="0,76,375{5,2147483647},5*{5,2147483647}">
                                     <i:ContentList.Template>
                                         <Template Id="12e4eefe-0f12-89be-3143-03605dcdee2f">
                                             <Template.Content>
@@ -154,7 +154,7 @@
                                                         <Set Property="Label.RichText" Value="VPVA" Target="7598a7d6-8f95-1baf-5693-e8e08c4ab9f9" />
                                                         <Set Property="Label.RichText" Value="Rutgers Violence Prevention and Victim Assitance" Target="a15073dd-857f-da23-75b3-7dcc4d813cb9" />
                                                         <Set Property="Label.RichText" Value="&lt;Run Foreground=&quot;#FF000000&quot; &gt;848-932-1181&lt;/Run&gt;" Target="f9801f17-c09f-c5b4-6b99-31acd012fa1e" />
-                                                        <Move To="15,7" Target="7598a7d6-8f95-1baf-5693-e8e08c4ab9f9" />
+                                                        <Move To="16,8" Target="7598a7d6-8f95-1baf-5693-e8e08c4ab9f9" />
                                                         <Set Property="Label.RichText" Value="" Target="9645a1ec-8eb9-755b-482b-8aeeb5f9ef90" />
                                                         <Move To="15,30" Target="a15073dd-857f-da23-75b3-7dcc4d813cb9" />
                                                         <Move To="15,51" Target="f9801f17-c09f-c5b4-6b99-31acd012fa1e" />
@@ -193,14 +193,53 @@
                                                         <Move To="13,7" Target="7598a7d6-8f95-1baf-5693-e8e08c4ab9f9" />
                                                         <Set Property="Label.RichText" Value="Rutgers Police Department" Target="a15073dd-857f-da23-75b3-7dcc4d813cb9" />
                                                         <Move To="12,29" Target="a15073dd-857f-da23-75b3-7dcc4d813cb9" />
+                                                        <Set Property="Label.RichText" Value="&lt;Run Foreground=&quot;#FF000000&quot; &gt;734-345-2456&lt;/Run&gt;" Target="f9801f17-c09f-c5b4-6b99-31acd012fa1e" />
+                                                        <Move To="12,51" Target="f9801f17-c09f-c5b4-6b99-31acd012fa1e" />
                                                         <Remove Target="6dc4abd7-3f90-543e-90b6-355a329c549d" />
                                                         <Remove Target="322b7170-c837-4e47-6c40-dda6f18ca7ba" />
+                                                        <Remove Target="9645a1ec-8eb9-755b-482b-8aeeb5f9ef90" />
+                                                        <Remove Target="ab49dc09-d260-2ed7-987f-0bfd8c8b6efd" />
+                                                        <Remove Target="918c7731-77c4-fa9c-d930-b18e6c1bad05" />
                                                     </SharedPart.Customizations>
                                                 </SharedPart>
                                             </ListItem.Content>
                                         </ListItem>
                                     </i:ContentList.Items>
                                 </i:ContentList>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="082b9cf6-55c8-1364-43e6-79dfe043bc60">
+                            <Add.Item>
+                                <i:TextArea Text="Hotlines" Border="#FFFFFFFF" FontSize="40" FontFamily="Open Sans" FontStyle="Bold" Id="4c55b58d-dbdf-95bc-c19b-836b6a5d2ff3" Panel.Bounds="6,4,240{22,2147483647},65{31,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="082b9cf6-55c8-1364-43e6-79dfe043bc60">
+                            <Add.Item>
+                                <Line Thickness="1" RotationAngle="3.88578058618805E-16" Background="#00FFFFFF" Id="98396db9-27fe-7736-04f0-70ea93e531ba" Panel.Bounds="0,74,371,3">
+                                    <Line.StartPoint>
+                                        <Point X="-18" Y="1" Id="b5a2f107-2d6f-69a7-e0f0-5a2b72871e85" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="08efb666-73b8-7401-fa9f-4853567c48d6">
+                                            <Segment.EndPoint>
+                                                <Point X="353" Y="1" Id="9ce19c79-fa2d-61b3-3f87-d5f4ade70dc2" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="082b9cf6-55c8-1364-43e6-79dfe043bc60">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="e8b3d688-98ce-e78d-5bf3-f7f2804a5541" Panel.Bounds="16,609,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandNavigate Screen="/Map.screen" Created="02/17/2019 00:56:52" Id="f821a415-958d-54e0-f5c9-12ab81ff7d86">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

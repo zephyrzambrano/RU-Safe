@@ -1,0 +1,37 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                               xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                               Id="e8e5ca80-8184-4f50-2e3c-a5a6ef751101">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="f3d11e24-bf98-c995-c98c-302c25dd412f">
+            <Content.Layers>
+                <Layer Id="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="b8a28247-ce3b-afd4-e724-19eed0c26ba5" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="18fbbdad-e333-8ff1-49c7-e8e941a042f9" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="21d1ef1b-2917-7165-f890-4cdbfbe60a49" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="02/17/2019 01:05:28" Id="6dbae079-96db-f604-0485-ed349d4467ba">
+            <Scene.KeyFrames>
+                <KeyFrame Id="a2f2c8d1-be2a-a2b1-abe9-902f96651e77">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="258fe5f5-2ad6-dc0f-7c10-e8c2b1783cde">
+                            <Add.Item>
+                                <i:Header Text="Frat Name (XYZ)" FontSize="36" FontFamily="Open Sans" Id="d0f42452-eb89-45e2-d882-a84fc99d4af4" Panel.Bounds="10,10,359{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

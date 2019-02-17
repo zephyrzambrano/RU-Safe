@@ -116,14 +116,29 @@
                         </Add>
                         <Add Property="Panel.Children" Target="09309829-4735-e82c-d534-a2d34a9cbd2f">
                             <Add.Item>
-                                <i:SearchBar WatermarkText="Search" FontFamily="Open Sans" Id="e8cbd2ce-a7a0-b13d-abba-7009b57eb820" Panel.Bounds="11,14,278{105,2147483647},5*{5,2147483647}" />
+                                <i:SearchBar WatermarkText="Search" FontFamily="Open Sans" Id="e8cbd2ce-a7a0-b13d-abba-7009b57eb820" Panel.Bounds="11,14,278{105,2147483647},5*{5,2147483647}">
+                                    <i:SearchBar.KeyDown>
+                                        <ConditionalCommand Id="087a296b-5753-4531-9657-302d9a6dd8e3">
+                                            <ConditionalCommand.Command>
+                                                <CommandNavigate Screen="/Search.screen" Created="02/17/2019 03:39:13" Id="36390701-737c-4721-b414-36d0ecebdd58">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </ConditionalCommand.Command>
+                                            <ConditionalCommand.Condition>
+                                                <KeyCondition Key="Enter" />
+                                            </ConditionalCommand.Condition>
+                                        </ConditionalCommand>
+                                    </i:SearchBar.KeyDown>
+                                </i:SearchBar>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="09309829-4735-e82c-d534-a2d34a9cbd2f">
                             <Add.Item>
                                 <Icon Color="#FF000000" CatalogId="la-plus-circle" Id="a047315f-864c-abf3-e875-86bc894ad533" Panel.Bounds="301,14,32{5,2147483647},32{5,2147483647}">
                                     <Icon.Click>
-                                        <CommandNavigate Screen="/Search.screen" Created="02/17/2019 01:55:15" Id="cea63037-8d55-4409-9320-a99c67412f60">
+                                        <CommandNavigate Screen="/Add Rating.screen" Created="02/17/2019 01:55:15" Id="d28bf08d-72f2-42e5-82ec-27bbbf8ca60b">
                                             <CommandNavigate.Transition>
                                                 <NavigateTransition Duration="0" />
                                             </CommandNavigate.Transition>
